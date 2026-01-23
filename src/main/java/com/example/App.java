@@ -1,8 +1,5 @@
 package com.example;
 
-import java.util.Map;
-import java.util.function.BiFunction;
-
 /**
  * Hello world!
  *
