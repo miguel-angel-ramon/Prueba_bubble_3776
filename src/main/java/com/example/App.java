@@ -6,27 +6,47 @@ package com.example;
  */
 public class App 
 {
-    private Map<String, BiFunction<Integer, Integer, Integer>> ops;
-
-    public void initOps() {
-        ops = Map.ofEntries(
-            Map.entry("addOrMax", (Integer a, Integer b) -> {
-                if (a == null || b == null) return 0;
-                if (a + b > 100) return Math.max(a, b);
-                return a + b;
-            }),
-            Map.entry("safeDiv", (Integer a, Integer b) -> {
-                if (a == null || b == null) return 0;
-                if (b == 0) return 0;
-                return a / b;
-            }),
-            Map.entry("mulOrClamp", (Integer a, Integer b) -> {
-                if (a == null || b == null) return 0;
-                int r = a * b;
-                if (r < 0) return 0;
-                if (r > 1000) return 1000;
-                return r;
-            })
-        );
+    interface Fn {
+        String apply(String v);
     }
-}
+
+    private Fn f1;
+    private Fn f2;
+    private Fn f3;
+
+    public void setup(String mode) {
+
+        f1 = (String v) -> {
+            if (v == null) {
+                return "NULL";
+            } else {
+                return v.toLowerCase();
+            }
+        };
+
+        f2 = (String v) -> {
+            if (v.length() < 3) {
+                return "SHORT";
+            } else if (v.length() < 6) {
+                return "MEDIUM";
+            } else {
+                return "LONG";
+            }
+        };
+
+        f3 = (String v) -> {
+            if ("A".equals(mode)) {
+                if (v == null) return "A_NULL";
+                return "A_" + v;
+            } else {
+                if (v == null) return "B_NULL";
+                return "B_" + v;
+            }
+        };
+    }
+
+    public String runAll(String value) {
+        return f1.apply(value) + "|" +
+               f2.apply(value) + "|" +
+               f3.apply(value);
+    }}
