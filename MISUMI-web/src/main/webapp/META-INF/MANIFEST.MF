@@ -1,0 +1,2 @@
+Manifest-Version: 1.0
+Dependencies: es.eroski.misumi, org.apache.cxf.impl

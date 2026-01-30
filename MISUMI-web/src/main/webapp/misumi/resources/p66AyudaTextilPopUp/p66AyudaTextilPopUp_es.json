@@ -1,0 +1,15 @@
+{
+	"ColNames" : [ 
+		"Modelo",
+		"Referencia",
+		"Color",
+		"Talla",
+		"Stock"
+		
+	],
+		
+	"GridTitle" : "Referencias Textil Mismo Lote",
+	"emptyRecords" : "No hay registros",
+	"noRecordsToExport" : "No hay registros",
+	"p66BotonAceptar" : "Aceptar"	
+}

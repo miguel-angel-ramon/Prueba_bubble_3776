@@ -1,0 +1,15 @@
+{
+	"ColNames" : [ 
+		"Fecha Prev. Ent.",
+		"Unidades",
+		"Motivo del no Servido"
+	],
+		
+	"GridTitle" : "No servido",
+	"emptyRecords" : "No hay registros",
+	"formatoFecha" : "dd/mm/yy",
+	"p29BotonAceptar" : "Aceptar",
+	"fechaPrevisEntDDMMYYYYTitle":"Fecha Prevista Entrega",
+	"uniNoServTitle":"Unidades no servidas",
+	"motivoDesTitle":"Motivo del no servido"
+}

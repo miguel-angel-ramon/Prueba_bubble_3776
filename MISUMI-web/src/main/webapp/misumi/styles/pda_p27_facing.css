@@ -1,0 +1,107 @@
+.etiquetaCampoVerticalNegrita{margin-bottom:3px;text-align:center;font-weight:bold;}
+.etiquetaEnlaceDeshabilitado{text-align:right;vertical-align:top;font-weight:bold;font-size:10px;}
+.botonBotonera{width:50px;display:inline-block;background:#e2e2e2;padding:2px 2px;font:normal 1em;text-decoration:none !important;cursor:pointer;text-align:center;zoom:1;overflow:visible;}
+.input70{width:70px}
+.input50{width:50px;height:14px;}
+.input40{width:40px;}
+.input30{width:30px;}
+.input225{width: 225px}
+.inputEditable{border:1px solid #0000FF;}
+.inputFacingResaltado{border:1px solid #FF0000 !important;}
+#marco{background-color:white;height:313px;width:238px;position:absolute;margin:auto;border:1px solid white;font:normal Verdana, Arial, Tahoma, Helvetica, sans-serif;color:#000000;}
+#contenidoPagina{background-color:white;position:relative;left:0px;top:54px;height:255px;width:99%;}
+td{padding:3px;}
+.botonSubmitAnt{background:url("../images/pager_prev.gif") no-repeat scroll 0 0;border:none;background-color:white;cursor:pointer;height:16px;width:16px;margin-bottom:3px;}
+.botonSubmitSig{background:url("../images/pager_next.gif") no-repeat scroll 0 0;border:none;background-color:white;cursor:pointer;height:16px;width:16px;margin-bottom:3px;}
+.botonSubmitAntDes{background:url("../images/pager_prev_des.gif") no-repeat scroll 0 0;border:none;background-color:white;height:16px;width:16px;margin-bottom:3px;}
+.botonSubmitSigDes{background:url("../images/pager_next_des.gif") no-repeat scroll 0 0;border:none;background-color:white;height:16px;width:16px;margin-bottom:3px;}
+#pda_p27_facing_titulo{float:left;text-align:center;width:98%;}
+#pda_p27_facing_bloque1{float:left;text-align: center;width:98%;}
+#pda_p27_facing_bloque2{margin-top:3px;float:left;vertical-align:bottom;}
+#pda_p27_facing_bloqueMensajes {float: left; text-align: center; width: 98%;}
+#pda_p27_facing_bloqueError{float:left;text-align:center;width:98%;}
+#pda_p21_sfm_bloqueGuardado{float:left;text-align:center;width:98%; height: 15px;}
+#pda_p27_facing_bloque3{float:left;text-align:center;margin-bottom:10px;width:98%;}
+#pda_p27_facing_bloque4{float:right;margin-bottom:7px;text-align:center;width:100%;}
+#pda_p27_facing_bloque5{float:right;width:98%;text-align:center;margin-bottom:7px;}
+#pda_p27_facing_bloque4_5_provisional{float:left;width:98%;height:122px}
+#pda_p27_facing_bloque4_provisional{float:left;width:100%;margin-bottom:7px;}
+#pda_p27_facing_bloque5_provisional{float:left;width:100%;}
+#pda_p27_facing_bloque5_1_provisional{float:left;width:100%;text-align:center;}
+#pda_p27_facing_bloque5_2_provisional{float:left;width:100%;text-align:center;height:70px;}
+.pda_p27_facing_bloque4_5_6_con_multiplicador{float:left;width:120px;margin-top:8px;}
+.pda_p27_facing_bloque4_5_6_sin_multiplicador{margin-top:20px !important;margin-right:17px !important;}
+#pda_p27_facing_bloque_con_multiplicador_llave{float:left;width:17px;text-align: center;}
+#pda_p27_facing_bloque_con_multiplicador_Imagen{float:left;width:80px;text-align: center;}
+#pda_p27_imagenMinimaComercial_con_multiplicador{text-align:center;border:1px solid #000000;height:61px;}
+#pda_p27_fld_imagenMinimaComercial_con_multiplicador{width:35px;text-align: center;}
+.pda_p27_lbl_50{width:50px;text-align:right;margin-right:3px;float:left;}
+.pda_p27_lbl_80{width:80px;text-align:right;margin-right:3px;float:left;}
+.pda_p27_input_30{width:36px;text-align:left;float:left;}
+.pda_p27_input_70{width:76px;text-align:left;float:left;}
+
+.pda_p27_imagen_llave{height:50px;margin-top: 5px;}
+#pda_p27_facingPrevio{text-align:left;float:left;width:100%;margin-bottom:7px;}
+#pda_p27_facing{text-align:left;float:left;width:100%;}
+#pda_p27_filterButtons{float:left;text-align:right;width:93%;}
+#pda_p27_filterButtonsSoloConsulta{float:left;text-align:center;width:180px;bottom:10px;padding-left:87px;}
+.pda_p27_imagen_estado{width:22px;}
+#pda_p27_facing_bloque1_label{float:left;padding-top:6px;}
+#pda_p27_facing_bloque1_campo{text-align: center;white-space: nowrap;overflow: hidden;}
+#pda_p27_facing_bloque2_pagAnt{float:left;vertical-align:bottom;margin:3px;}
+#pda_p27_facing_bloque2_pagNum{float:left;width:170px;text-align:center;vertical-align:bottom;}
+#pda_p27_facing_bloque2_pagSig{float:right;vertical-align:bottom;margin:3px;}
+.pda_p27_guardado{font-size:12px;font-weight:bold;color:#4F8A10;}
+.pda_p27_error{font-size:12px;font-weight:bold;color:#D8000C;}
+#pda_p27_facing_Estado{float:left;text-align:center;width:98%;margin:0 auto;}
+#pda_p27_facing_EstadoLabel{text-align:center;width:98%;}
+#pda_p27_facing_EstadoIcono{text-align:center;width:98%;}
+.pda_p27_ButtonInline{float:left;padding:3px;}
+.pda_p27_etiquetaCampoNegrita { text-align: right; margin-right: 1px; vertical-align: middle; font-weight:bold; background: url('../images/dialog-accept-16.gif'); background-position: left 3px; background-repeat: no-repeat; height: 25px; padding-left: 20px; padding-top:3px;}
+.pda_p27_etiquetaCampoNegritaRojo { text-align: right; margin-right: 1px; vertical-align: middle; font-weight:bold; color:red; background: url('../images/dialog-cancel-16.gif'); background-position: left 3px; background-repeat: no-repeat; height: 25px; padding-left: 20px; padding-top:3px;}
+.botonSubmitGrabar{background:url("../images/floppy_30.gif") no-repeat scroll 0 0;border:none;background-color:white;cursor:pointer;height:30px;width:30px;margin-bottom:3px;}
+
+.pda_p27_textil_lote_guardado{font-size:12px;font-weight:bold;color:#4F8A10;margin:0;}
+.pda_p27_textil_lote_error{font-size:12px;font-weight:bold;color:#D8000C;margin:0;}
+#pda_p27_textil_lote_facing_bloque1{float:left;text-align:center;width:98%;}
+#pda_p27_textil_lote_facing_bloque2{float:left;text-align:center;width:98%;}
+#pda_p27_textil_lote_facing_bloque3{float:left;text-align:center;width:98%;}
+#pda_p27_textil_lote_facing_bloque4{float:left;width:98%;height:27px;}
+#pda_p27_textil_lote_facing_bloque1_campo{text-align:center;white-space:nowrap;overflow:hidden;font-weight:bold;}
+#pda_p27_textil_lote_facing_bloque2_campo{text-align:center;white-space:nowrap;overflow:hidden;font-weight:bold;}
+#pda_p27_textil_lote_facing_bloque3_campo{text-align:center;white-space:nowrap;overflow:hidden;font-weight:bold;}
+#pda_p27_textil_lote_facing_bloque4_pagAnt{float:left;width:18%;vertical-align:bottom;}
+#pda_p27_textil_lote_facing_bloque4_pagNum{float:left;width:62%;text-align:center;vertical-align:bottom;}
+#pda_p27_textil_lote_facing_bloque4_numRef{}
+#pda_p27_textil_lote_facing_bloque4_color{}
+#pda_p27_textil_lote_facing_bloque4_pagSig{float:right;width:18%;vertical-align:bottom;}
+#pda_p27_textil_lote_facing_bloque5{float:left;width:98%;height:22px;text-align:center;}
+#pda_p27_textil_lote_facing_bloque5_1{float:left;width:45%;text-align:center;padding-top:3px;}
+#pda_p27_textil_lote_facing_bloque5_2{float:right;width:50%;text-align:center;}
+#pda_p27_textil_lote_facing_bloque4_5_6{float:right;width:98%;height:89px;}
+#pda_p27_textil_lote_facing_bloque4_5_6_tabla{width:98%;border-collapse:collapse;margin-top:2px;}
+#pda_p27_textil_lote_facing_bloque4_5_6_tabla td{border-bottom:1px solid #898989;padding: 2px 3px 2px 3px;}
+.pda_p27_textil_lote_refer_th{border:none;text-align:right;font-weight:bold;padding-right:12px;}
+.pda_p27_textil_lote_talla_th{border:none;text-align:center;font-weight:bold;}
+.pda_p27_textil_lote_facing_th{border:none;text-align:left;font-weight:bold;padding-left:5px;}
+.pda_p27_textil_lote_refer_td{text-align:right;width:33%;}
+.pda_p27_textil_lote_talla_td{text-align:center;width:33%;}
+.pda_p27_textil_lote_facing_td{text-align:left;width:33%;}
+.pda_p27_textil_lote_facing_error_td{background:url('../images/dialog-error-16.gif');background-position:right 3px;background-repeat:no-repeat;}
+
+#pda_p27_textil_lote_filterButtons{float:left;text-align:right;width:93%;}
+.botonSubmitTextilLoteAnt{background:url("../images/pager_prev_25.gif") no-repeat scroll 0 0;border:none;background-color:white;cursor:pointer;height:25px;width:25px;margin-left:10px;float:left;}
+.botonSubmitTextilLoteSig{background:url("../images/pager_next_25.gif") no-repeat scroll 0 0;border:none;background-color:white;cursor:pointer;height:25px;width:25px;margin-right:10px;float:right;}
+.botonSubmitTextilLoteAntDes{background:url("../images/pager_prev_des_25.gif") no-repeat scroll 0 0;border:none;background-color:white;height:25px;width:25px;margin-left:10px;float:left;}
+.botonSubmitTextilLoteSigDes{background:url("../images/pager_next_des_25.gif") no-repeat scroll 0 0;border:none;background-color:white;height:25px;width:25px;margin-right:10px;float:right;}
+.pda_p27_textil_lote_activo{text-align:right;vertical-align:middle;font-weight:bold;background:url('../images/dialog-accept-16.gif');background-repeat:no-repeat;padding-left:20px;}
+.pda_p27_textil_lote_inactivo{text-align:right;vertical-align:middle;font-weight:bold;color:red;background:url('../images/dialog-cancel-16.gif');background-repeat:no-repeat;padding-left:20px;}
+.pda_p27_textil_lote_facing_bloque5_2_checkbox{width:22px;height:22px;float:left;border:4px solid black;}
+.pda_p27_textil_lote_facing_bloque5_2_checkbox_text{float:left;padding-top:4px; padding-left:2px;}
+#pda_p27_textil_lote_inactivar_enlace{color:blue;font-weight:bold; text-decoration: underline;}
+.pda_p27_textil_lote_mensaje_activacion{color:green;font-weight:bold;}
+#pda_p27_tipoGama{text-align:left;float:left;width:100%;}
+#pda_p27_tipoGamaconCC{display:inline-block; text-align:right;float:left;width:130px;}
+#pda_p27_cc{display:inline-block; text-align:center;float:right;width:95px;}
+#pda_p27_textilPedible{text-align:center;float:left;width:100%;}
+#pda_p27_facing_con_multiplicador{float:right;text-align:left;margin-bottom:7px;width:100%;}

@@ -1,0 +1,57 @@
+.valorCampo{ text-align:left;margin-right:1px;vertical-align:middle;font-weight:normal;}
+.botonBotonera{width:50px;display:inline-block;background:#e2e2e2;padding:2px 2px;font:normal 1em;text-decoration:none !important;cursor:pointer;text-align:center;zoom:1;overflow:visible;} /* the overflow property removes extra width in IE */
+.botonBotoneraGrande{width:100px;display:inline-block;background:#e2e2e2;padding:2px 2px;font:normal 1em;text-decoration:none !important;cursor:pointer;text-align:center;zoom:1;overflow:visible;} /* the overflow property removes extra width in IE */
+.input50{width:50px}
+.input135{width:135px}
+.input30{width:30px}
+.input60{width:60px}
+.input55{width:55px}
+.input35{width:35px}
+.input120{width:120px;text-align:center;}
+.inputSinBorde{border-width:0;}
+#contenidoPagina{background-color:white;position:relative;left:0px;top:25px;height:255px;width:99%;}
+.botonSubmitAnt{background:url("../images/pager_prev_25.gif") no-repeat scroll 0 0;border:none;background-color:white;cursor:pointer;height:25px;width:25px;margin-bottom:3px;}
+.botonSubmitSig{background:url("../images/pager_next_25.gif") no-repeat scroll 0 0;border:none;background-color:white;cursor:pointer;height:25px;width:25px;margin-bottom:3px;}
+.botonSubmitAntDes{background:url("../images/pager_prev_des_25.gif") no-repeat scroll 0 0;border:none;background-color:white;height:25px;width:25px;margin-bottom:3px;}
+.botonSubmitSigDes{background:url("../images/pager_next_des_25.gif") no-repeat scroll 0 0;border:none;background-color:white;height:25px;width:25px;margin-bottom:3px;}
+#pda_p31_correccionStock_pcn_titulo{float:left;text-align:center;margin-bottom:5px;margin-top:5px;width:98%;}
+#pda_p31_descripcionRefTextil{float:left;text-align:center;margin-bottom:5px;width:98%;}
+#pda_p31_infoRefTextil{float:left;text-align:center;margin-bottom:5px;width:98%;}
+#pda_p31_bloqueError{float:left;text-align:center;width:98%;height:10px;}
+.pda_p31_error{color:#D8000C;font-size:9px;font-weight:bold;}
+.pda_p31_aviso{color:blue;font-size:9px;font-weight:bold;}
+#pda_p31_bloque1{float:left;}
+#pda_p31_bloque1_pagAnt{float:left;vertical-align:bottom;margin:3px;height: 25px;width: 25px;}
+#pda_p31_bloque1_pagNum{float:left;width:150px;text-align:center;vertical-align:bottom;}
+#pda_p31_bloque1_pagSig{float:right;vertical-align:bottom;margin:3px;height: 25px;width: 25px;}
+.pda_p31_bloqueRegistro{margin-top:3px;float:left;vertical-align:bottom;width:98%;}
+.pda_p31_bloqueRegistroTextil{margin-top:3px;float:left;vertical-align:bottom;width:98%;border-bottom:1px solid #bcbcbc;}
+.pda_p31_reg_tipoCab{float:left;text-align:center;width:25px;margin:0 auto;}
+.pda_p31_reg_descripcionCab{float:left;text-align:center;width:135px;margin:0 auto;}
+.pda_p31_reg_referCab{float:left;text-align:center;width:65px;margin:0 auto;}
+.pda_p31_reg_tallaCab{float:left;text-align:center;width:35px;margin:0 auto;}
+.pda_p31_reg_colorCab{float:left;text-align:center;width:60px;margin:0 auto;}
+.pda_p31_reg_tallaColorCab{float:left;text-align:center;width:95px;margin:0 auto;}
+.pda_p31_reg_stockCab{float:left;text-align:center;width:70px;margin:0 auto;}
+.pda_p31_reg_tipo{float:left;text-align:center;width:25px;margin:0 auto;}
+.pda_p31_reg_refer{float:left;text-align:center;width:55px;margin:0px 0px 0px 0px;}
+.pda_p31_reg_talla{float:left;text-align:center;width:35px;margin:0px 0px 0px 0px;}
+.pda_p31_reg_color{float:left;text-align:left;width:60px;margin:0px 0px 0px 0px;}
+.pda_p31_reg_tallaColor{float:left;text-align:center;width:120px;margin:0px 0px 0px 0px;overflow:hidden;}
+.pda_p31_reg_descripcion{float:left;text-align:left;width:130px;margin:0 auto;}
+.pda_p31_reg_stockTextil{float:left;text-align:center;width:40px;margin:0 auto;}
+.pda_p31_reg_stock{float:left;text-align:center;width:70px;margin:0 auto;}
+#pda_p31_filterButtons{float:left;width:93%;margin-top:15px;}
+#pda_p31_bloqueDatos{float: left;width:100%}
+.botonSubmitGrabar{background:url("../images/floppy_30.gif") no-repeat scroll 0 0;border:none;background-color:white;cursor:pointer;height:30px;width:30px;margin-bottom:3px;}
+
+#pda_p31_error_bloque1{width:232px;top:30%;position:relative;text-align:center;height:255px;margin-top: 85px;}
+#pda_31_bloque_stockPlataforma{
+	border: 1px solid black;
+	padding:5px;
+	float:left;
+	margin-left:20px;	
+}
+
+.inputAzul{border:1px solid blue;}
+#pda_p31_btn_save{float:right;}

@@ -1,0 +1,24 @@
+{
+"ColNames" : [ 
+		"",
+		"<div class='div-correccion-th-multi'>F.INICIO<span class='ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr' sort='asc'></span><span class='ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr' sort='desc'></span></div>",
+		"<div class='div-correccion-th-multi'>H.INICIO<span class='ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr' sort='asc'></span><span class='ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr' sort='desc'></span></div>",
+		"<div class='div-correccion-th-multi'>F.FIN<span class='ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr' sort='asc'></span><span class='ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr' sort='desc'></span></div>",
+		"<div class='div-correccion-th-multi'>H.FIN<span class='ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr' sort='asc'></span><span class='ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr' sort='desc'></span></div>",
+		"<div class='div-correccion-th-multi'>Mensaje MISUMI<span class='ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr' sort='asc'></span><span class='ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr' sort='desc'></span></div>",
+		"<div class='div-correccion-th-multi'>Mensaje PDA<span class='ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr' sort='asc'></span><span class='ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr' sort='desc'></span></div>",
+		"SOC<br> EROSKI",
+		"SOC<br> CPB",
+		"SOC<br> VEGAL",
+		"SOC<br> MERC",
+		"<div class='div-correccion-th-multi'>HIPER<span class='ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr' sort='asc'></span><span class='ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr' sort='desc'></span></div>",
+		"<div class='div-correccion-th-multi'>SUPER<span class='ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr' sort='asc'></span><span class='ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr' sort='desc'></span></div>",
+		"FRAN"
+	],
+	"GridTitle" : "",
+	"emptyRecords" : "No hay registros.",
+	
+	"iconoGuardado" : "Guardado",
+	
+	"noHayRegistrosSeleccionados" : "No hay registros seleccionados"
+}

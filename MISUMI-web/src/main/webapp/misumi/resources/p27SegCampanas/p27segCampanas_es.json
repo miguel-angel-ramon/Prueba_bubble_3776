@@ -1,0 +1,15 @@
+{
+	"ColNames" : 
+		["CAMPAÑA<br/>SECCIÓN / CATEGORÍA / SUBCATEGORÍA",
+	     "<div class='p27_div-correccion-th-multi'>SERVIDO / CAMPAÑA</div>",
+	     "Nº NO SERVIDOS<br/>/<br/>UNIDADES",
+	     "VENTAS ACTUALES<br/>/<br/>PREVISIÓN TOTAL"
+	    ],
+	"GridTitle" : "",
+	"emptyRecords" : "No hay registros para la celda seleccionada",
+	"emptyRecordsSelecc" : "No hay registros",
+	"expandirTodo" : "Expandir todo",
+	"contraerTodo" : "Contraer todo",
+	"formatoFecha" : "D dd/mm/yy",
+	"p27textoColumn1" : "EMPUJE IMPL:"
+}

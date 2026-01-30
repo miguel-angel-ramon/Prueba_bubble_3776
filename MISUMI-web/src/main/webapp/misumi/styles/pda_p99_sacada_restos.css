@@ -1,0 +1,65 @@
+.etiquetaCampoNegrita { text-align: right; margin-right: 1px; vertical-align: middle; font-weight:bold;}
+.etiquetaCampoNegritaVertAliBottom { text-align: right; margin-right: 1px; vertical-align: bottom; font-weight:bold;}
+.etiquetaEnlaceDeshabilitado{text-align:right;vertical-align:top;font-weight:bold;font-size:10px;}
+.valorCampo { text-align: left; margin-right: 1px; vertical-align: middle; font-weight: normal;}
+#contenidoPagina{background-color:white;position:relative;left:0px;top:54px;height:255px;width:99%;}
+#pda_p99_sacadaRestos_titulo{float:left;text-align:center;margin-bottom:10px;width:98%;}
+#pda_p99_capacidad_facing{float:left;text-align:center;margin-bottom:10px;width:98%;}
+.pda_p99_capacidad_facing_left{width:75%;display: inline-block;vertical-align: middle; text-align: left;}
+.pda_p99_capacidad_facing_right{display: inline-block;text-align: center; vertical-align: middle;}
+
+#pda_p99_datosReferencia_bloqueReferencia{float:left; text-align:center;width:99%; margin-bottom: 5px;}
+#pda_p99_bloque2_descReferencia {
+    float: left;
+    margin-left: 1px;
+    margin-right: 3px;
+}
+#pda_p99_fld_descripcionRef{font-weight:bold;color:blue !important;background-color:#c2c2c2; text-decoration: underline;}
+#pda_p99_bloque2_tipoRot{float: left;}
+
+.input225{width: 225px}
+.input180{width:180px}
+.pda_p99_tipoRotacionAR{font-weight: bold; color:#000000; background-color: #FF0000; text-align: center; width: 30px;}
+.pda_p99_tipoRotacionMR{font-weight: bold; color:#000000; background-color: #FFFF00; text-align: center; width: 30px;}
+.pda_p99_tipoRotacionBR{font-weight: bold; color:#000000; background-color: #00FF00; text-align: center; width: 30px;}
+.pda_p99_tipoRotacionUndef{font-weight: bold; color:#000000; background-color: #FFFFFF; text-align: center; width: 30px;}
+
+
+#pda_p99_datosStock_UC{float:left; width:99%; margin-bottom: 15px;}
+#pda_p99_datosStock{float:left; text-align:left;width:auto;margin-left: 5px;margin-left: 5px;}
+#pda_p99_datosStock label{font-size:11px;}
+#pda_p99_datosStock span{font-size:11px;}
+#pda_p99_datosUC{float:left; text-align:left;width:auto;margin-left: 5px;}
+#pda_p99_datosUC label{font-size:11px;}
+#pda_p99_datosFFPP{float:right; text-align:left;width:auto;margin-left: 5px;}
+#pda_p99_datosFFPP a{font-size:11px;}
+
+/* DEJAR CAJAS */
+#pda_p99_dejarCajas_div{height:16px;float:left; text-align:center;width:97%; padding:2px;border:1px solid;}
+#pda_p99_fld_dejarCajas{font-size:12px;}
+
+/* DEJAR CAJAS SEPTIMA*/
+#pda_p99_fld_dejarCajasSeptima{font-size:12px;}
+
+#pda_p99_espacio_div{height:4px;float:left; text-align:left;width:97%; padding:2px;font-size: 1px;}
+
+#pda_p99_datosOferta_cabecera{float:left; width:99%; margin-bottom: 2px;}
+#pda_p99_datosOferta{float:left; text-align:left;width:50%;margin-left: 5px;}
+#pda_p99_datosCabecera{float:left; text-align:right; width:45%;}
+
+#pda_p99_datosAlbaran{float:left; width:99%; margin-bottom: 15px;text-align: center;}
+#pda_p99_datosAlbaran hr{width:100%;height:1px;;background:#000000;color:#000000}
+#pda_p99_datosAlbaran label{font-size:12px;color: #ff0000;}
+
+/*Paginacion*/
+#pda_p99_bloqueFlechas{width: 100%;float: left;margin:3px;height:10%;}
+#pda_p99_pager{width:65%;float: left;margin: 1px;}
+.pda_p99_pager_arrow{width:16%;float:left;}
+.pda_p99_pager_arrow_img{width:85%;display: block;margin: auto;}
+#pda_p99_pager_numbers{font-size:15px;text-align:center;}
+
+#pda_p99_error_bloque{width:232px;top:30%;position:relative;text-align:center;}
+.mens_error{color:red;font:10px Verdana,Arial,Tahoma,Helvetica,sans-serif;margin: 0;}
+
+.pda_p99_enlaceGuardadoOK{color: #4F8A10;  cursor: pointer;  text-decoration: underline; font-size: 12px; font-weight: bold;}
+.pda_p99_enlace{color: #0000FF; cursor: pointer; text-decoration: underline; font-size: 12px; font-weight: bold; }

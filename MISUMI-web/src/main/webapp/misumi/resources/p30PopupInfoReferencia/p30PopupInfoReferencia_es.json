@@ -1,0 +1,42 @@
+{
+	"ColNames" : [ 
+		"Fecha Prevista<br/>Entrega",
+		"<div class='div-correccion-th-multi'>Bajo Pedido</div>",
+		"<div class='div-correccion-th-multi'>NSR</div>",
+		"<div class='div-correccion-th-multi'>Empuje</div>",
+		"Implantación<br/>Cabecera",
+		"<div class='div-correccion-th-multi'>Intertienda</div>"
+	],
+	
+	"p30MotivosColNames":[
+		" "
+	],
+	"GridTitle" : "Últimos envíos",
+	"emptyRecords" : "No existen datos",
+	"noRecordsToExport" : "No hay registros",
+	"referenceLabel":"Referencia",
+	"mensajeErrorWSStock":"Se ha producido un error al mostrar el stock actual",
+	"grupajeCon":"GRUPAJE",
+	"centralizadaCon":"CENTRALIZADA",
+	"descentralizadaCon":"DESCENTRALIZADA",
+	"othersCon":"Sin definir",
+	"p30capacity":" de CAPACIDAD y ",
+	"p30facing":" de FACING ",
+	"p30facingVegalsa":" de FACING y ",
+	"p30fondoVegalsa":" de FONDO.",
+	"p30StockMinimo": " de Stock Final Mínimo ",
+	"p30Multiplicador":" y con un multiplicador de ",
+	"p30Imc":" dando una imagen comercial de ",
+	"mensajeImpSFM" : "El SFM se ha cambiado manualmente por #stockFinalMinimo#. Mañana entrará en VIGOR este dato.",
+	"mensajeCapSFM" : "La Capacidad ha cambiado manualmente por #capacidadMaxLineal# y el Facing por #stockMinComerLineal#. Mañana entrará en VIGOR este dato.",
+	"mensajeFacing" : "El Facing se ha cambiado por #facing#. Mañana entrará en VIGOR este dato.", 
+	"mensajeFacingCapacidad" : "El Facing se ha cambiado por #facing# y la Capacidad por #capacidadLineal#. Mañana entrará en VIGOR este dato.",
+	"mensajeTipoPlanoP" : "(Alto = {0} {1} Ancho = {2})",		
+	"mensajeTipoPlanoPCExp" : "(Implantación Cajas-> Alto = {0} {1} Ancho = {2})",
+	"noTienePlanograma" : ". Y no está planogramada.",
+	"p30yCon" : " y con ",
+	"p30UC" : " U/C",
+	"p30labelFilesetNoActivaVegalsa":"MMC = N",
+	"p30mensajeFilesetNoActivaVegalsa":"La referencia con fecha #VALOR# es MMC=N por los siguientes motivos"
+
+}

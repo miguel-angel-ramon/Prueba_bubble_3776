@@ -1,0 +1,28 @@
+{
+	"p72ColNames" : [ 
+		"Region",
+		"Zona",
+		"Centro",
+		"Stock Actual",
+		"Venta Media"
+	],
+	"p72GridTitle" : "Stock por centro",
+	"descRegionTitle" : "Región",
+	"descZonaTitle" : "Zona",
+	"descCentroTitle" : "Centro",
+	"stockTitle" : "Stock actual",
+	"ventaMediaTitle" : "(Sumatorio de todas las ventas de 30 días para atrás desde el último recalculo SFM) dividido entre (días que el centro ha estado abierto menos los días que ha tenido rotura)",
+	"emptyRecords" : "No existen datos",
+	"recordText" : "{0} - {1} de {2}",
+	"optionActivaVacia" : "",
+	"optionActivaTodas" : "Todas",
+	"referenciaRequired" : "Es necesaria la introducción de la referencia para la consulta",
+	"centroRequired" : "Es necesaria la introducción del centro para la consulta",
+	"regionRequired" : "Es necesaria la introducción de la región para la consulta",
+	"zonaRequired" : "Es necesaria la introducción de la zona para la consulta",
+	"provinciaRequired" : "Es necesaria la introducción de la provincia para la consulta",
+	"centroRegionZonaProvinciaRequired" : "Es necesaria la introducción del centro o de la región / zona o de la provincia para la consulta",
+	"errorStockActual" : "Se ha producido un error al mostrar el stock actual",
+	"tableFilter":"Filtro col."
+		
+}

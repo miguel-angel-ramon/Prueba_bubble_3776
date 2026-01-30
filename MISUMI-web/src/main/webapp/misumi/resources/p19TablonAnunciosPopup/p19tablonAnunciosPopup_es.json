@@ -1,0 +1,12 @@
+{
+	"p19BotonAceptar" : "Aceptar",
+	"p19TituloVentanaTablonPopup" : "Avisos",
+	"p19mensajePedidoAdicional" : "- Ya está introducida la oferta de la {0}. <span id='p19_mensajeRecordatorioPedidoAdicionalEnlace{1}' class='p19_mensajeRecordatorioPedidoAdicionalEnlace p19tipoDePedidoAdicional{2}'>Pinchar aquí</span>.",
+	"p19mensajeAvisoDevolucion" : "- Existen DEVOLUCIONES DE {0} pendientes de realizar. <span id='p19_mensajeRecordatorioDevolucionesEnlace'> Pinchar aquí</span>.",
+	"p19mensajeAvisoDevolucionUrgente" : "- URGENTE: EJECUTAR CIRCULAR DE RETIRADA DE CALIDAD DE {0} <span id='p19_mensajeRecordatorioDevolucionesEnlaceUrgente'> Pinchar aquí</span>.",
+	"p19mensajeAvisoCalendario" : "<div id='p19_validar'> - Validar el calendario del centro antes del: </div> {0} <div id='p19_mensajeRecordatorioCalendarioEnlace'>Pinchar aquí</div> ",
+	"p19mensajeAvisoEntrada" : "- Pendiente de dar entrada a los PEDIDOS DESCENTRALIZADOS DE {0}. <span id='p19_mensajeRecordatorioEntradasEnlace'> Pinchar aquí</span>.",
+	"p19mensajeAvisoAlarmasPLU" : "- Hay referencias de '{0}' con stock pero sin PLU. <span id='p19_mensajeRecordatorioAlarmasPLUEnlace'> Pinchar aquí</span>.",
+	"p19mensajeAvisoMostrador" : "- Realizar el PEDIDO de {0}. <span id='p19_mensajeRecordatorioAvisoMostradorEnlace'> Pinchar aquí</span>.",
+	"p19mensajeAvisoFacingCero" : "- AVISO: Hay refs de {0} que se han activado, pero tienen Facing=0. <span id='p19_mensajeRecordatorioFacingCeroEnlace'>Pinchar aquí</span>."	
+}

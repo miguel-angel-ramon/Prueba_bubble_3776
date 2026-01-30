@@ -1,0 +1,13 @@
+{
+	"ColNames" : [ 
+		"Referencia",
+		"Denominación"
+	],
+		
+	"GridTitle" : "Referencias de Venta",
+	"emptyRecords" : "No hay registros",
+	"noRecordsToExport" : "No hay registros",
+	"p63BotonAceptar" : "Aceptar",
+	"codArtTitle":"Referencia",
+	"descripArtTitle":"Denominación"
+}

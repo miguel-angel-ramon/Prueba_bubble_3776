@@ -1,0 +1,66 @@
+#contenidoPagina{background-color:white;position:relative;left:0px;top:54px;height:255px;width:99%;overflow: hidden;}
+#pda_p118_detalleReferencia_titulo{float:left;text-align:center;width:98%;height:5%;}
+#pda_p118_detalleReferencia_bloqueReferenciaColor{width: 100%;float: left;margin:3px;height:14%;}
+#pda_p118_fld_descripcionRef{width:95%;}
+#pda_p118_detalleReferencia_titulo{width:95%;}
+.etiquetaEnlaceDeshabilitado{text-align:right;vertical-align:top;font-weight:bold;font-size:10px;}
+#pda_p118_detalleReferencia_bloqueFotoDetRef{width:100%;float:left;margin-left:3px;margin-right:3px;height:32%}
+#pda_p118_detalleReferencia_bloqueFoto{width:34%;float:left;height:100%;overflow:hidden;}
+.pda_p118_helper{display:inline-block;height:100%;vertical-align: middle;}
+#pda_p118_detalleReferencia_bloquePvp{width:50%;float:left;height:100%;}
+#pda_p118_detalleReferencia_pvp{width:100%;float: left;margin: 5px;height:15%;}
+#pda_p118_detalleReferencia_pvplabel{width:30%;float:left;text-align:right;font-weight: bold}
+#pda_p118_detalleReferencia_pvpval{width:70%;float:left;text-align:left;font-weight: bold}
+#pda_p118_detalleReferencia_pvpOferta{width: 100%;float: left;height:15%;}
+#pda_p118_detalleReferencia_pvpOfertalabel{width:70%;float:left;text-align:right;font-weight: bold}
+#pda_p118_detalleReferencia_pvpOfertaval{width:30%;float:left;text-align:left;font-weight: bold}
+#pda_p118_detalleReferencia_oferta{width: 100%;float: left;height:18%;}
+#pda_p118_detalleReferencia_ofertalabel{width:100%;float:left;text-align:left;font-weight: bold;margin-left:7px}
+#pda_p118_detalleReferencia_rotacion{width: 100%;float: left;height:15%;}
+#pda_p118_detalleReferencia_rotacionlabel{width:30%;float:left;text-align:right;font-weight: bold;margin-top: 2px;}
+#pda_p118_detalleReferencia_rotacionval{width:50%;float:left;text-align:center;font-weight: bold}
+.pda_p118_tipoRotacionAR{font-weight: bold; color:#000000; background-color: #FF0000; text-align: center; width: 30px;}
+.pda_p118_tipoRotacionMR{font-weight: bold; color:#000000; background-color: #FFFF00; text-align: center; width: 30px;}
+.pda_p118_tipoRotacionBR{font-weight: bold; color:#000000; background-color: #00FF00; text-align: center; width: 30px;}
+.pda_p118_montajeAdicionalConEnlace{color:#0000FF;cursor:pointer;text-decoration:underline;font-size:10px; font-weight: bold;}
+.pda_p118_fotoPistola{width:48%;}
+
+/* Fijo y centrado (compatible IE6) */
+.foto-contenedor {
+  width: 80px;        /* ancho fijo */
+  height: 80px;       /* alto fijo */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  display: inline-block;
+}
+
+.pda_p118_enlaceSfmOk{color:#4F8A10;cursor:pointer;text-decoration:underline;}
+#pda_p118_datosReferencia_bloque5{width:232px;float:left}
+#pda_p118_imagenComercialLegendVerde{margin:0px 5px;}
+#pda_p118_imagenComercialLegendRojo{ margin:0px 5px;}
+#pda_p118_imagenComercialSpanVerde{color:#4F8A10;font-weight:bold; }
+#pda_p118_imagenComercialSpanRojo{color:#FF0000;font-weight:bold; }
+
+
+#pda_p118_datosReferencia_bloque5_areaPlanograma{margin-top: 0px; margin-left: 0px; float: left; width: 100%}
+#pda_p118_datosReferencia_bloque5_capacidadVegalsa{float: left; width:auto}
+#pda_p118_datosReferencia_bloque5_facingDerecha{margin-top: 0px; margin-left: 0px; float: left; width: 57%}
+#pda_p118_datosReferencia_bloque5_multipDerecha{float: left; width:auto}
+#pda_p118_datosReferencia_bloque5_capacidad{margin-top: 0px; margin-left: 0px; float: left; width: 43%}
+#pda_p118_datosReferencia_bloque5_multipImcDerecha{float: right; width: 57%}
+#pda_p118_datosReferencia_bloque5_imcDerecha{float: left; width:auto}
+#pda_p118_datosReferencia_bloque5_cap1fac1{width:100%;float:left;}
+#pda_p118_datosReferencia_bloque5_cap1{width:50%;float:left}
+#pda_p118_datosReferencia_bloque5_fac1{width:50%;float:left}
+#pda_p118_datosReferencia_bloque5_capacidadVegalsa{float: left; width:auto}
+#pda_p118_datosReferencia_bloque5_areaSfm{margin-top: 0px; margin-left: 0px; float: left; width: 100%}
+#pda_p118_datosReferencia_bloque5_sfm {float:left; width:auto;}
+#pda_p118_datosReferencia_bloque5_areaFacCap{margin-top: 0px; margin-left: 0px; float: left; width: 100%}
+#pda_p118_datosReferencia_bloque5_areaCap{margin-top: 0px; margin-left: 0px; float: left; width: 100%}
+#pda_p118_datosReferencia_bloque5_areaFacing {margin-top: 0px; margin-left: 0px; float: left; width: 100%}
+#pda_p118_datosReferencia_bloque5_facing{float: left; width: 100%}
+#pda_p118_datosReferencia_bloque5_multipImc{float: left; width: 100%}
+#pda_p118_datosReferencia_bloque5_multip{float: left; width:auto}
+#pda_p118_datosReferencia_bloque5_imc{float: left; width:auto}
+

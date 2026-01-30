@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+#contenidoPagina{background-color:white;position:relative;left:0px;top:27px;height:282px;width:99%;overflow: hidden;}
+#pda_p95_descripcionDetalle_contenido{height:100%;width:100%;}
+#pda_p95_descripcionDetalle_descripcionReposicionDatosTalla{margin:25px;}
+
+#pda_p95_descripcionDetalle_descripcionReposicionDatosTalla .p95_info{font-weight:bold;}
+
+#pda_p95_descripcionDetalle_descripcionReposicionDatosTalla label,p{
+	font-size:15px;
+}
+
+#pda_p95_descripcionDetalle_lbl_descripcion{font-size:20px;}
+#pda_p95_descripcionDetalle_descripcion{text-align:center;margin-top:110px;}

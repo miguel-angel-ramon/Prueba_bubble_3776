@@ -1,0 +1,15 @@
+{
+	"p62CantidadRequired" : "Es necesaria la introducción de las unidades a pedir",
+	"p62DescripcionRequired" : "Es necesaria la introducción de la descripcion",
+	"p62PesoDesdeRequired" : "Es necesaria la introducción de una cantidad en el campo del peso desde",
+	"p62PesoDesdeIncorrect" : "Formato peso desde incorrecto",
+	"p62PesoHastaRequired" : "Es necesaria la introducción de una cantidad en el campo del peso hasta",
+	"p62PesoHastaIncorrect" : "Formato peso hasta incorrecto",
+	"p62PesoDesdeMayor" : "Peso desde es mayor que peso hasta",
+	"p62invalidTelefonoCliente" : "El telefono ha de ser numérico y de al menos 9 digitos",
+	"p62noClientName" : "El nombre del cliente es obligatorio",
+	"p62noClientSurname" : "El apellido del cliente es obligatorio",
+	"p62noTelephoneClient" : "El telefono del cliente es obligatorio",
+	"p62noCenterContact" : "El contacto del centro es obligatorio", 
+	"p62AvisoPedidoEspecial" : "Al tener especificaciones el encargo, la entrega se hará como mínimo para el" 
+}

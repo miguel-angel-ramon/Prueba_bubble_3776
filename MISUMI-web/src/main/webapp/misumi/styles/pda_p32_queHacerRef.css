@@ -1,0 +1,13 @@
+.etiquetaEnlaceDeshabilitado{text-align:right;vertical-align:top;font-weight:bold;font-size:10px;}
+#contenidoPagina{background-color:white;position:relative;left:0px;top:54px;height:255px;width:99%;}
+#pda_p32_que_hacer_ref_titulo{float:left;text-align:center;margin-bottom:10px;width:98%;}
+.pda_p32_que_hacer_ref_bloque{float:left;text-align:center;width:98%;}
+.pda_p32_que_hacer_ref_label{float:left;font-weight:bold;vertical-align:middle;text-align:left;width:98%;}
+.pda_p32_que_hacer_ref_campo{margin-left:3px;text-align:left;}
+#pda_p32_que_hacer_ref_bloque_denomInformeRef{float:left;text-align:center;width:98%;margin-top:10px;overflow:hidden;white-space:nowrap;}
+#pda_p32_que_hacer_ref_bloque_refProveedor{float:left;text-align:center;width:98%;margin-top:10px;}
+#pda_p32_que_hacer_ref_bloque_converArt{float:left;text-align:center;width:98%;margin-top:5px;margin-bottom:5px;overflow:hidden;white-space:nowrap;}
+#pda_p32_que_hacer_ref_bloque_accion{float:left;text-align:center;width:98%;margin-top:10px;margin-bottom:10px;}
+#pda_p32_lbl_accionVal{margin-left:3px;font-weight:bold;color:#D8000C;text-align:left;}
+.pda_p32_que_hacer_ref_error{font-size:12px;font-weight:bold;color:#D8000C;}
+.input225{width: 225px}

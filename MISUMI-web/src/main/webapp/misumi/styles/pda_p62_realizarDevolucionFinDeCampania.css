@@ -1,0 +1,88 @@
+#contenidoPagina{background-color:white;position:relative;left:0px;top:54px;height:255px;width:99%;overflow: hidden;}
+#pda_p62_tipoDeDevolucion_tituloComun{text-align:center;width:100%;height:30px}
+#pda_p62_tipoDeDevolucion_tituloComun.pda_p62_con_euros{height:45px}
+#pda_p62_tipoDevolucion_tituloLink{width:100%;float:left;height:15px;overflow:hidden;}
+#pda_p62_tipoDevolucion_numeroReferencias{width:100%;float:left;}
+#numeroReferenciasInfo{width:65%;float:left;text-align:right;}
+#numeroReferenciasDatos{width:35%;float:left;text-align:left;}
+#pda_p62_tipoDevolucion_euros_contenedor{width:100%;float:left;height:15}
+#pda_p62_tipoDevolucion_euros_contenedor>div{float:left;height:15}
+#pda_p62_eurosInfo{width:22%;text-align:right;font-weight:bold; display: inline;}
+#pda_p62_eurosDatos{width:20%;text-align:left; display: inline;}
+#pda_p62_eurosMaxInfo{width:36%;text-align:right;font-weight:bold; display: inline;}
+#pda_p62_eurosMaxDatos{width:22%;text-align:left; display: inline;}
+#numeroReferenciaDatosCompletadas{width:40%;float:left;text-align:right;}
+#numeroReferenciaDatosTotal{width:60%;float:left;text-align:left;}
+#pda_p62_tipoDeDevolucion_contenidoDistinto{width:100%}
+.pda_p62_tipoDeDevolucion_contenidoDistinto_bloque{height:78px;width:95%;border:1px solid black;margin-left:4px;padding:2px}
+.pda_p62_tipoDeDevolucion_contenidoDistinto_bloque.pda_p62_con_textil{height:98px;}
+.finDeCampaniaDatos{height:20px;width:100%;float:left;}
+#pda_p62_tipoDeDevolucion_pieComun{width:100%;height:40px;position:absolute;bottom:0}
+.bloqueEntero{width:98%;float:left;height:15px;}
+.bloqueMitad{width:50%;float:left;height:15px;margin-top:2px;}
+.bloqueDiez{width:10%;float:left;height:15px;margin-top:2px;}
+.bloqueNoventa{width:90%;float:left;height:15px;margin-top:2px;}
+.bloqueTercio{width:31%;float:left;height:15px;}
+
+.bloqueTercio2{width:30%;float:left;height:15px;}
+.bloqueTercio3{width:39%;float:left;height:15px;}
+.bloqueCuarenta{width:40%;float:left;height:15px;}
+.bloqueTreinta{width:38%;float:left;margin-top: 3px;}
+.bloqueTreintaFormato{width:10%;float:left;margin-top: 3px;}
+.bloqueSesentaLabel{width:53%;float:left;margin-top: 3px;}
+
+.bloqueStock{width:26%;float:left;height:15px;}
+.bloqueLabelStock{width:45%;float:left;margin-top:3px;}
+.bloqueDatoStock{width:45%;float:left;margin-top: 3px;}
+
+.bloqueStockDevuelto{width:32%;float:left;height:15px;}
+.bloqueLabelStockDevuelto{width:44%;float:left;margin-top:4px;}
+.bloqueDatoStockDevuelto{width:49%;float:left;margin-top: 3px;}
+.bloqueStockDevueltoLabel{width:49%;float:left;margin-top: 3px;}
+
+.bloqueBulto{width:39%;float:left;height:15px;}
+.bloqueLabelBulto{width:35%;float:left;margin-top:4px;}
+.bloqueBultoLabel{width:53%;float:left;margin-top: 3px;}
+.bloqueDatoBulto{width:48%;float:left;margin-top: 3px;}
+
+/*.bloqueSesenta{width:53%;float:left;}*/
+.bloqueSesenta2{width:53%;float:left;margin-top: 3px;}
+.bloqueSesenta3{width:60%;float:left;height:15px;}
+.bloqueSesentaFormato{width:85%;float:left;margin-top: 3px;}
+.bloqueSetenta{width:70%;float:left;}
+.inputFinCampania{width:90%;height: 15px;}
+.pda_p62_lbl_Info{font-weight: bold;/*font-size:9px;*/}
+#pda_p62_coste_unitario{text-align:right}
+#bloqueFlechas{float:left;width:63%;height: 45px;margin-top:4px;}
+.paginacion{float:left;padding-left:1px;height:35px;}
+#numeroPagina{height:35px;font-weight:bold;padding-top:4px;font-size:12px;}
+#bloqueBoton{float:left;width:19%;height:45px;text-align: center;}
+#bloqueBotonCerrarBulto{float:left;width:15%;height:45px;text-align: center;margin-top: 4px;}
+.bloqueBotonGuardar{float:left;margin-right:5px;}
+.bloqueBotonAzul{border:1px solid blue;width:45%;height:21px;float:left;overflow:hidden;text-align:center;padding-top: 6px;margin-left:1px;}
+.botonSubmitGrabar{background:url("../images/finalizar_45.gif") no-repeat scroll 0 0;border:none;background-color:white;cursor:pointer;height:30px;width:100%;margin-bottom:3px;}
+.botonCerrarBulto{background:url("../images/caja_30.png") no-repeat scroll 0 0;border:none;background-color:white;cursor:pointer;height:30px;width:100%;;margin-bottom:3px;}
+.input150{width:150px;}
+.input225{width: 225px;font-weight: bold;}
+.inputSinBorde{border-width:0;}
+.valorCampoSoloLectura{margin-top: 3px;}
+.inputCantidadResaltado{border:1px solid #FF0000 !important;}
+.inputBultoResaltado{border:1px solid #FF0000 !important;}
+#pda_p62_areaInferior{text-align: center}
+#pda_p62_areaInferior>*{margin-top:2px}
+#pda_p62_areaDatosExtra{float:left; width:50%}
+#pda_p62_areaImagen{float:left; width:100%}
+#pda_p62_areaImagenMitad{float:left; width:50%}
+.linkVerde{color:green;}
+.pda_p62_red *{color:red;}
+.pda_p62_limitado{white-space:nowrap;overflow:hidden}
+.modeloProveedorP62, .modeloP62{margin-top: 2px}
+.pda_p62_error{color:#D8000C;font-weight:bold;font-size: 10px;}
+.pda_p62_readonly{background-color:#d3d3d3}
+
+.bloqueCuarenta2{width:38%;float:left;height:15px;}
+.bloqueSesenta{width:48%;float:left;margin-left:5px;margin-right:2px;margin-top: 3px;}
+
+.bloqueDiez{width:10%;float:left;margin-top:1px;}
+.inputFinCampaniaReadOnly{width:90%;height: 15px;background-color:#dbdbdb;cursor:pointer;}
+.variosBultos{width:100%;height: 15px;font-weight: bold;font-size: 16px;}

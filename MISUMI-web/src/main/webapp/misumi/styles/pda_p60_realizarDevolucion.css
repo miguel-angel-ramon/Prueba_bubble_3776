@@ -1,0 +1,38 @@
+#contenidoPagina{position:absolute;
+				background-color:white;
+				left:0px;
+				top:54px;
+				height:255px;
+				width:99%;
+				overflow: hidden;
+				z-index:9997;
+				}
+#pda_p60_realizarDevolucion_titulo{float:left;text-align:center;width:98%;height: 15px;}
+#pda_p60_lbl_titulo{font-weight: bold;font-size: 10px;}
+#pda_p60_realizarDevolucion_contenido{float:left;height:200px;width:98%}
+#pda_p60_realizarDevolucion_areaLinks{width:100%;height:100%;float:left;/*padding-left: 15px;*/}
+.bloqueRadioButtonYLink{float: left;width: 96%;height:55px;border: 1px solid black;margin-bottom:3px;margin-left:2px;padding:3px;overflow:hidden;cursor:pointer;}
+.subBloqueRadioButton{width:20%;float:left;text-align: center;}
+.subBloqueLink{width:80%;float:left;text-align: left;color:red;font-size:10px;height: 15px;overflow: hidden;}
+#pda_p60_realizarDevolucion_areaFlechas{width:100%;height:40px;float:left;}
+#bloqueFlechas{float:left;width:100%;}
+.paginacion{float:left;padding-left:5px;/*width:25%*/}
+#numeroPagina{height:35px;font-weight:bold;padding-top:4px;font-size:12px;}
+#bloqueBoton{float:left;width:40%;}
+.boton{display:inline-block;position:relative;background:#e2e2e2;padding:2px 2px;font:normal 1em;text-decoration:none !important;cursor:pointer;text-align:center;zoom:1;overflow:visible;}
+.colorFechas{color:red;}
+.mens_error{color: red;font: 10px Verdana,Arial,Tahoma,Helvetica,sans-serif;text-align: center;}
+.mens_errorFueraFechas{color: red; font:9px Verdana,Arial,Tahoma,Helvetica,sans-serif; font-weight:bold; text-align: left;}
+#popupCargando{display:none;
+				position:absolute;
+				top:0 !important;
+				left:0 !important;
+				width:640px; height:470px;
+				background-color:#f1f1f1;
+				border:1px solid #aaa;
+				padding:40px;
+				z-index:9999;
+				font-weight: bold;
+				box-shadow:2px 2px 10px rgba(0,0,0,0.3);
+				filter: alpha(opacity=90);
+				}

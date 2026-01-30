@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"    
+	xmlns:jee="http://www.springframework.org/schema/jee"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+    xsi:schemaLocation="
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+		http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.1.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
+		<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		  <property name="dataSource" ref="dataSourceSIA"/>
+		</bean>
+		<bean id="transactionManagerMisumi" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		  <property name="dataSource" ref="dataSource"/>
+		</bean>
+		<!-- Enable for DB connection leak detection 
+		<bean class="es.eroski.misumi.leak.SpringDataSourceProxyProcessor" />
+		-->
+
+		<tx:annotation-driven />
+<!-- 	  	<jee:jndi-lookup id="dataSource" jndi-name="java:jboss/datasources/DLOGAPLDS" resource-ref="false" />  -->
+ 		<jee:jndi-lookup id="dataSource" jndi-name="java:jboss/datasources/DUNIDINDS" resource-ref="false"/>
+     	<jee:jndi-lookup id="dataSourceSIA" jndi-name="java:jboss/datasources/VGREDAPRDS" resource-ref="false"/>
+    	<jee:jndi-lookup id="dataSourceKOSMOS" jndi-name="java:jboss/datasources/KOSMOS2" resource-ref="false"/>
+<!--      <jee:jndi-lookup id="dataSource" jndi-name="java:jboss/datasources/UNIDINDS" resource-ref="false" /> -->
+<!--      <jee:jndi-lookup id="dataSourceSIA" jndi-name="java:jboss/datasources/PGREDAPRDS" resource-ref="false" /> -->
+<!--  	  jee:jndi-lookup id="dataSourceKOSMOS" jndi-name="java:jboss/datasources/KOSMOSCODS" resource-ref="false" /> -->
+
+</beans>

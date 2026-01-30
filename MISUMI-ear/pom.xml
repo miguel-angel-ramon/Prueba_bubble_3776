@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+        <artifactId>MISUMI</artifactId>
+        <groupId>es.eroski</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+  <groupId>es.eroski</groupId>
+  <artifactId>MISUMI-ear</artifactId>
+  <packaging>ear</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>MISUMI-ear JavaEE6 Assembly</name>
+  <url>http://maven.apache.org</url>
+
+  <build>
+    <plugins>
+    	<plugin>
+			<groupId>org.jboss.as.plugins</groupId>
+			<artifactId>jboss-as-maven-plugin</artifactId>
+			<version>7.4.Final</version>
+			<configuration>
+				<skip>true</skip>
+			</configuration>
+		</plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.0</version>
+        <configuration>
+          <source>1.7</source>
+          <target>1.7</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-ear-plugin</artifactId>
+        <version>2.4</version>
+        <configuration>
+          <version>6</version>
+          <!-- Se añade config para que que no modifique application.xml y para que tome
+          como nombre correcto MISUMI-web.war sin 1.0-SNAPSHOT -->
+          <generateApplicationXml>true</generateApplicationXml>
+          <!-- Las dependencias compartidas ya se dejan en el módulo WAR por lo que no es necesario crear esta carpeta dentro del módulo EAR -->
+          <!-- <defaultLibBundleDir>lib</defaultLibBundleDir> -->
+          <!-- <defaultLibBundleDir>/</defaultLibBundleDir> -->
+          <modules>
+            <webModule>
+              <groupId>es.eroski</groupId>
+              <artifactId>MISUMI-web</artifactId>
+              <bundleFileName>MISUMI-web.war</bundleFileName>
+              <contextRoot>/MISUMI-web</contextRoot>
+            </webModule>
+          </modules>
+        </configuration>
+      </plugin>
+    </plugins>
+    <finalName>MISUMI-ear</finalName>
+  </build>
+    <dependencies>
+        <dependency>
+            <groupId>es.eroski</groupId>
+            <artifactId>MISUMI-web</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>war</type>
+        </dependency>
+    </dependencies>
+</project>

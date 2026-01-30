@@ -1,0 +1,6 @@
+@CHARSET "UTF-8";
+
+#contenidoPagina{background-color:white;position:relative;left:0px;top:27px;height:282px;width:99%;overflow: hidden;}
+#pda_p94_errorListadoRepo_contenido{height:100%;width:100%;}
+#pda_p94_errorListadoRepo_error{text-align:center;margin-top:110px}
+#pda_p94_errorListadoRepo_lbl_error{color:red;font-size:20px;}

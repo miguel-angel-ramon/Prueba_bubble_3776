@@ -1,0 +1,269 @@
+#contenidoPagina {
+    background-color: white;
+    position: relative;
+    top: 54px;
+    height: auto;
+    width: 99%;
+    overflow: hidden;
+    margin-left: 5px;
+}
+
+#pda_p117_stockAlmacen_contenido {
+    float: left;
+    width: 98%;
+    padding-bottom: 10px;
+}
+
+#pda_p118_stockAlmacen_tituloComun {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#pda_p118_bloqueReferencia{
+	text-align: center;
+	margin-top: 3px;
+}
+
+#pda_p118_bloqueFotoStock{
+	width: 100%;
+	float: left;
+	margin-left:3px;
+	margin-right:3px;
+	height:60%
+}
+
+#pda_p118_bloqueFoto{
+	width:36%;
+	float:left;
+	height:100%;
+	overflow:hidden;
+}
+
+#pda_p118_bloqueStock{
+	width:60%;
+	float:left;
+	height:100%;
+}
+
+#pda_p118_bloqueStock_titulos {
+	width: 100%;
+	float: left;
+	margin: 1px;
+	height:10%;
+}
+
+#pda_p118_bloqueStock_filas{
+	width:100%;
+	float:left;
+	margin:1px;
+	height:70%;
+}
+
+#pda_p118_bloqueStock_valorLineal{
+	width:65px;
+	float:left;
+	text-align:center;
+}
+
+#pda_p118_bloqueStock_valorStock{
+	text-align:left;
+}
+	
+#pda_p117_stockAlmacen_stockTabla {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 48px;
+}
+
+#pda_p117_stockAlmacen_stock {
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 68px;
+}
+
+#pda_p117_lbl_stockLineal,
+input[name="stock"] {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+    margin-left: 21px;
+}
+
+.pda_p118_fotoPistola {
+    vertical-align:middle;
+}
+
+.pda_p118_helper{
+	display:inline-block;
+	height:100%;
+	vertical-align: middle;
+}
+
+#estadoIconos {
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+    zoom: 1;
+    padding-top: inherit;
+}
+
+.iconoEstadoItem {
+    float: left;
+    width: 32%;
+    text-align: center;
+    zoom: 1;
+    margin-bottom: 10px;
+}
+
+.iconoEstado {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.icono-click {
+    display: inline-block;
+    padding: 5px; /* amplía el área clicable */
+    zoom: 1;       /* trigger hasLayout en IE6 */
+	cursor: pointer;
+}
+
+* html .icono-click {
+    display: inline; /* Fallback IE6 */
+    zoom: 1;         /* Asegura hasLayout */
+}
+
+.textoEstado {
+    display: block;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-top: 4px;
+    color: #333;
+}
+
+.subrayado {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #333;
+}
+
+* html .textoEstado {
+    line-height: 1;    
+}
+
+* html #estadoIconos {
+    margin-top: 10px;   
+    line-height: 1;   
+    text-align: center;
+    zoom: 1; 
+}
+* html .pda_p91_fotoPistola {
+    padding-top: 0;     
+    vertical-align: middle;
+}
+
+* html .iconoEstadoItem {
+    vertical-align: middle; 
+}
+
+* html .subrayado {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border-bottom: 2px solid black;
+    width: 90%;
+}
+
+.stock-header {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.etiquetaStockLineal {
+    font-weight: bold;
+    width: 60px;
+    text-align: center;
+}
+
+* html .etiquetaStockLineal {
+    font-weight: bold;
+    width: 60px;
+    text-align: center;
+    font-size: medium;
+}
+
+.stockLink {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    font-weight: bold;
+    padding: 3px 0px;
+    border: 1px solid #3a104d;
+ 	margin-right: 55px;
+}
+
+.stockLink:hover,
+.stockLink:focus {
+    text-decoration: underline;
+    color: #000;
+    background-color: #e0e0e0;
+}
+
+.enlaceOk {
+    color: #28a745; /* Verde para indicar éxito */
+    font-weight: bold;
+}
+
+* html .pda_p91_fontSize{font-size:12px;width: 20%;
+  margin-top: -23px;
+  margin-left: 40px;}
+
+.pda_p91_listRepo_bloqueStockRepo_stock{width:83%;display: block;margin: auto;}
+.pda_p91_fontSize{font-size:12px;width: 20%;
+  margin-top: -16px;
+  margin-left: 105px;}
+  
+  .link-verde {
+  color: green;text-decoration: underline;
+}
+.link-azul {
+  color: blue;text-decoration: underline;
+}
+
+.link-verde.ie6,
+.link-azul.ie6 {
+  font-size: medium !important;
+}
+
+.stock-container {
+	text-align: center;
+	margin-top: -19px;
+	margin-left: 16px;
+}
+
+.stock-field {
+	width: 40px;          
+    text-align: center;   
+    font-family: sans-serif; 
+    font-size: 12px;      
+    zoom: 1;            /* activa "hasLayout" en IE6, importante */
+}
+
+.stock-field:focus {
+    background-color: #f9f9f9;
+}
+
+* html .stock-container { text-align: center; zoom:1;margin-top: -23px;
+  margin-left: 16px; }
+* html .stock-field     { display: inline; zoom:1; width: 48px; } 

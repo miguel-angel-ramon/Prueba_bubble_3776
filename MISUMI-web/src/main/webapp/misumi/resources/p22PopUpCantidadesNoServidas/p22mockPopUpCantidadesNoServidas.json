@@ -1,0 +1,71 @@
+{ "page":"1",
+  "total":"2",
+  "records":"13",
+  "rows": [
+	 { "referencia" : "888999777666",
+	   "descripcion"    : "Lote de sardinas la sardinilla",
+	   "cajasNoServidas"   : "555",
+	   "motivo"   : "2-FALTA DE PLATAFORMA"
+	 },
+	 { "referencia" : "338999777666",
+	   "descripcion"    : "Lote de sardinas la sardinilla",
+	   "cajasNoServidas"   : "555",
+	   "motivo"   : "1-PRODUCTO SIN STOCK EN PLATAFORMA"
+	 },
+	 { "referencia" : "778999777666",
+	   "descripcion"    : "Lote de sardinas la sardinilla",
+	   "cajasNoServidas"   : "555",
+	   "motivo"   : "2-FALTA DE PLATAFORMA"
+	 },
+	 { "referencia" : "678999777666",
+	   "descripcion"    : "Lote de sardinas la sardinilla",
+	   "cajasNoServidas"   : "555",
+	   "motivo"   : "1-PRODUCTO SIN STOCK EN PLATAFORMA"
+	 },
+	 { "referencia" : "128999777666",
+	   "descripcion"    : "Lote de sardinas la sardinilla",
+	   "cajasNoServidas"   : "555",
+	   "motivo"   : "5-CODIGO EAN NO EXISTE O ERRONEO"
+	 },
+	 { "referencia" : "2384263423",
+	   "descripcion"    : "Lote de sardinas la sardinilla",
+	   "cajasNoServidas"   : "555",
+	   "motivo"   : "1-PRODUCTO SIN STOCK EN PLATAFORMA"
+	 },
+	 { "referencia" : "658923423466",
+	   "descripcion"    : "Lote de sardinas la sardinilla",
+	   "cajasNoServidas"   : "555",
+	   "motivo"   : "1-PRODUCTO SIN STOCK EN PLATAFORMA"
+	 },
+	 { "referencia" : "658999777666",
+	   "descripcion"    : "Lote de sardinas la sardinilla",
+	   "cajasNoServidas"   : "555",
+	   "motivo"   : "1-PRODUCTO SIN STOCK EN PLATAFORMA"
+	 },
+	 { "referencia" : "658999767867866",
+	   "descripcion"    : "Lote de sardinas la sardinilla",
+	   "cajasNoServidas"   : "555",
+	   "motivo"   : "1-PRODUCTO SIN STOCK EN PLATAFORMA"
+	 },
+	 { "referencia" : "34534537666",
+	   "descripcion"    : "Lote de sardinas la sardinilla",
+	   "cajasNoServidas"   : "555",
+	   "motivo"   : "1-PRODUCTO SIN STOCK EN PLATAFORMA"
+	 },
+	 { "referencia" : "6582343477666",
+	   "descripcion"    : "Lote de sardinas la sardinilla",
+	   "cajasNoServidas"   : "555",
+	   "motivo"   : "1-PRODUCTO SIN STOCK EN PLATAFORMA"
+	 },
+	 { "referencia" : "658990007666",
+	   "descripcion"    : "Lote de sardinas la sardinilla",
+	   "cajasNoServidas"   : "555",
+	   "motivo"   : "1-PRODUCTO SIN STOCK EN PLATAFORMA"
+	 },
+	 { "referencia" : "65899223666",
+	   "descripcion"    : "Lote de sardinas la sardinilla",
+	   "cajasNoServidas"   : "555",
+	   "motivo"   : "1-PRODUCTO SIN STOCK EN PLATAFORMA"
+	 }
+  ]
+}

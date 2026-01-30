@@ -1,0 +1,38 @@
+/**
+ * Controller PRINCIPAL de PACKING LIST.
+ * Primero, VALIDAR que el CENTRO es CORRECTO.
+ * Segundo, distribuir el flujo dependiendo del resultado de la validación.
+ *          Si OK, 
+ */
+package es.eroski.misumi.control.prehuecos;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+
+@Controller
+public class PdaP119GestionErrorAlmacenController{
+
+//	private static Logger logger = Logger.getLogger(pdaP106SelPackingListController.class);
+
+	private final String resultadoKO = "/pda/prehuecos/pda_p119_errorAlmacen";
+
+	@RequestMapping(value = "/PdaP119GestionErrorAlmacen",method = RequestMethod.GET)
+	public String showForm(ModelMap model
+						  ,HttpSession session, HttpServletRequest request
+						  ,HttpServletResponse response
+						  ,@RequestParam("mensajeError") String mensajeError
+						  ,@RequestParam("controlVolver") String controlVolver
+						  ) {
+
+		model.addAttribute("mensajeError",mensajeError);
+		model.addAttribute("controlVolver",controlVolver);
+		return resultadoKO;
+	}
+}

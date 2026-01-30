@@ -1,0 +1,21 @@
+{
+	"emptyRecords" : "No existen datos",
+	"referenceRequired" : "Es necesaria la introducción de la referencia para la consulta",
+	"centerRequired" : "Es necesaria la selección del centro para la consulta",
+	"areaRequired" : "Es necesaria la selección del area para la consulta",
+	"sectionRequired" : "Es necesaria la selección de la sección para la consulta",
+	"categoryRequired" : "Es necesaria la selección de la categoría para la consulta",
+	"encargos" : "Encargos",
+	"montajeAdicional" : "Montaje adicional",
+	"montajeAdicionalOferta" : "Montaje adicional EN OFERTA",
+	"empujes" : "Empujes",
+	"validarCant" : "Validar Cantidades EXTRA",
+	"encargosCliente" : "Encargos Cliente Final",
+	"noModifyEncargos" : "No existen modificaciones masivas para pedidos de tipo Encargo",
+	"noModifyEncargosCliente" : "No existen modificaciones masivas para pedidos de tipo Encargo de Cliente",
+	"noModifyEmpujes" : "No existen modificaciones para pedidos de tipo Empuje",
+	"noModifyValidar" : "No existen modificaciones para validaciones de cantidades extra",
+	"noDeleteEmpujes" : "No se pueden eliminar pedidos de tipo Empuje",
+	"noExcelData" : "Realice la busqueda antes de exportar a Excel",
+	"mensajeAyudaMca":"<div id='p40_mensajeAyuda'>En el caso de estar activo este campo, se mostrará los Montajes Adicionales realizados desde Central para las cabeceras, ofertas y campañas</div>"
+}

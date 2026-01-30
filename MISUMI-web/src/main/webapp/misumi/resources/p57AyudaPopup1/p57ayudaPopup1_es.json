@@ -1,0 +1,14 @@
+{
+	"p57AyudaColNames" : [ 
+		"Oferta",
+		"Período",
+		"Precio",
+		"1º Día",
+		"2º Día",
+		"3º Día",
+		"Total"
+	],
+	
+	"emptyRecords" : "No hay registros",
+	"noRecordsToExport" : "No hay registros"
+}

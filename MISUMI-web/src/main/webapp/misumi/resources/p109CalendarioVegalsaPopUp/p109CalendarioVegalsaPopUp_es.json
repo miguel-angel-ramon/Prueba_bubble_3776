@@ -1,0 +1,15 @@
+{
+	"p109GridTitle" : "Detalle de calendario de pedido",
+	"p109ColNames" : [ 
+		"Mapa",
+		"Fecha pedido",
+		"Día sem. pedido",
+		"Hora pedido",
+		"Fecha reposición",
+		"Día sem. reposición",
+	    "Turno repo.",
+	    "Marcador"		
+	],
+	"emptyRecords" : "No hay registros",
+	"noRecordsToExport" : "No hay registros"
+}

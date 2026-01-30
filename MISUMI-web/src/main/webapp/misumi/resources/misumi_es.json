@@ -1,0 +1,7 @@
+{
+	"centerRequired" : "Es necesaria la selección del centro para la consulta",
+	"referenceRequired" : "Es necesaria la introducción de la referencia para la consulta",
+	"referenceMinCaracters": "La denominación debe tener al menos 4 caracteres",
+	"emptyRecordReference" : "No existen registros para la referencia seleccionada",
+	"centerRequiredForWS":"Obligatorio introducir el Centro"		
+}

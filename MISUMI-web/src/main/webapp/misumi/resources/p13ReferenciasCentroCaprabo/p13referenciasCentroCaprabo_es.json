@@ -1,0 +1,12 @@
+{
+	"emptyRecords" : "No existen datos",
+	"referenceRequired" : "Es necesaria la introducción de la referencia para la consulta",
+	"centerRequired" : "Es necesaria la selección del centro para la consulta",
+	"noHayPedidoNingunDia" : "No hay pedido ningún día",
+    "hoyNoHayPedidoPeroSiOtroDia" : "Hoy no hay pedido pero si algún otro día",
+    "stockBajo" :"STOCK BAJO -> DIAS",
+    "stockAlto" :"STOCK ALTO -> DIAS",
+    "parrafoPedidoAutomaticoActivo" :"La REFERENCIA está ACTIVA #VALOR# para el APROVISIONAMIENTO CENTRALIZADO."
+	
+		
+}

@@ -1,0 +1,37 @@
+{ "page":"1",
+  "total":"5",
+  "records":"5",
+  "rows": [
+	
+	 { "fechaPed" : "2012/11/30",
+	   "confirmadas"    : "1",
+	   "nsr" : "0",
+	   "empuje"   : "0",
+	   "impCab"   : "0"
+	 },
+	 { "fechaPed" : "2012/11/28",
+	   "confirmadas"    : "1",
+	   "nsr" : "1",
+	   "empuje"   : "1" ,
+	   "impCab"   : "0"
+	 },
+	 { "fechaPed" : "2012/11/25",
+	   "confirmadas"    : null,
+	   "nsr" : "0",
+	   "empuje"   : "1" ,
+	   "impCab"   : "0"
+	 },
+	 { "fechaPed" : "2012/11/18",
+	   "confirmadas"    : null,
+	   "nsr" : "1",
+	   "empuje"   : "0" ,
+	   "impCab"   : "0"
+	 },
+	 { "fechaPed" : "2012/11/15",
+	   "confirmadas"    : "0",
+	   "nsr" : "1",
+	   "empuje"   : "0" ,
+	   "impCab"   : "0"
+	 }
+  ]
+}

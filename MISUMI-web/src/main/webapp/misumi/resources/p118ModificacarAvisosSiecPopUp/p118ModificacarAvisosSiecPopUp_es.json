@@ -1,0 +1,14 @@
+{
+	"btnNuevo" : "Nuevo",
+	"btnModificar" : "Modificar",
+	"datosObligatoriosAviso" : "Hay que rellenar fecha inicio, hora inicio, mensaje PC, mensaje PISTOLA y seleccionar al menos una sociedad afectada y un negocio",
+	"errorActualizar" : "Se ha producido un error al actualizar",
+	"errorInsertar" : "Se ha producido un error al insertar", 
+	"mensajeInsertarOk" : "Se ha insertado el aviso correctamente",
+	"mensajeActualizarOk" : "Se ha actualizado el aviso correctamente",
+	"sinModificacion" : "No hay modificaciones",
+	"fechaFinAnteriorFechaIni" : "La fecha fin no puede ser anterior a la fecha inicio",
+	"fechaIniPosteriorFechaFin" : "La fecha inicio no puede ser posterior a la fecha fin",
+	"horaIniFormatoAviso" : "El formato de la hora inicial es incorrecto. El formato correcto es HH24:MM",
+	"horaFinFormatoAviso" : "El formato de la hora fin es incorrecto. El formato correcto es HH24:MM"
+}

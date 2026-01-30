@@ -1,0 +1,14 @@
+#contenidoPaginaResaltado{position:relative;left:0px;top:54px;padding:2px;height:255px;width:99%;}
+
+#pda_p120_AreaPopupImplantacion{margin-bottom:3px;}
+
+#pda_p120_ImplantacionDivTitle{width:99%; height:15px;}
+#pda_p120_div_TituloImplantacion{float:left;}
+#pda_p120_botonCerrar{float:right;}
+
+#pda_p120_AreaImplantacion{margin-top:30px; text-align: center;}
+#pda_p120_ImplantacionVerde{color:#4F8A10;}
+#pda_p120_ImplantacionRojo{color:#FF0000;}
+#pda_p120_ImplantacionAzul{color:#0000FF;}
+
+#pda_p120_SpanImplantacion{font-weight:bold; }

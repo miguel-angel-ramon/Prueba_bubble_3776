@@ -1,0 +1,5 @@
+.boton{display:inline-block;position:relative;background:#e2e2e2;padding:2px 2px;font:normal 1em;text-decoration:none !important;cursor:pointer;text-align:center;zoom:1;overflow:visible;} /* the overflow property removes extra width in IE */
+#contenidoPagina{background-color:white;position:relative;left:0px;top:54px;height:255px;width:99%;}
+#pda_p26_guardarVentaAnticipada_bloque1{float:left;text-align:center;margin-top:40px;width:98%;}
+#pda_p26_filterButtons{float:left;text-align:center;width:98%;margin-top:30px;}
+.botonAceptar{background:url("../images/dialog-accept-24.gif") no-repeat scroll 0 0;border:none;background-color:white;cursor:pointer;height:40px;width:40px;margin-bottom:3px;}

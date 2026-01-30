@@ -1,0 +1,106 @@
+#contenidoPagina{background-color:white;position:relative;left:0px;top:34px;height:255px;width:99%;}
+#contenidoPaginaResaltado{position:relative;left:0px;top:54px;padding:2px;height:255px;width:99%;}
+
+#pda_p119_AreaPopupImplantacion{margin-bottom:3px;}
+
+#pda_p119_ayudaFacing_bloqueReferencia{margin-top:10px;}
+#pda_p119_ayudaFacing_bloqueImplantacion{margin-top:10px;}
+#pda_p119_imagenComercial{margin-top:10px;}
+
+#pda_p119_ayudaFacingLegendVerde{margin:0px 5px;}
+#pda_p119_ayudaFacingLegendRojo{ margin:0px 5px;}
+#pda_p119_ayudaFacingSpanVerde{color:#4F8A10 !important;font-weight:bold !important;}
+#pda_p119_ayudaFacingSpanRojo{color:#FF0000;font-weight:bold;}
+#pda_p119_ayudaFacingSpanAzul{color:#0000FF;font-weight:bold;}
+#pda_p119_SpanImplantacion{font-weight:bold; }
+
+#pda_p119_datosReferencia_areaPlanograma{margin-top: 0px; margin-left: 0px; float: left; width: 100%}
+#pda_p119_datosReferencia_areaSfm{margin-top: 0px; margin-left: 0px; float: left; width: 100%}
+#pda_p119_datosReferencia_sfm {float:left; width:auto;}
+
+#pda_p119_datosReferencia_areaFacing {margin-top: 0px; margin-left: 0px; float: left; width: 100%}
+#pda_p119_datosReferencia_facing{float: left; width: 100%}
+#pda_p119_datosReferencia_multipImc{float: left; width: 100%}
+#pda_p119_datosReferencia_multip{float: left; width:auto}
+#pda_p119_datosReferencia_imc{float: left; width:auto}
+
+#pda_p119_datosReferencia_areaFacCap{margin-top: 0px; margin-left: 0px; float: left; width: 100%}
+#pda_p119_datosReferencia_capacidad{margin-top: 0px; margin-left: 0px; float: left; width: 50%}
+#pda_p119_datosReferencia_facingDerecha{margin-top: 0px; margin-left: 0px; float: left; width: 50%}
+#pda_p119_datosReferencia_multipImcDerecha{float: right; width: 50%}
+#pda_p119_datosReferencia_multipDerecha{float: left; width:auto}
+#pda_p119_datosReferencia_imcDerecha{float: left; width:auto}
+
+#pda_p119_datosReferencia_areaCap{margin-top: 0px; margin-left: 0px; float: left; width: 100%}
+
+#pda_p119_datosReferencia_cap1{width:50%;float:left}
+#pda_p119_datosReferencia_fac1{width:50%;float:left}
+
+#pda_p119_datosReferencia_cap1fac1{width:100%;float:left;}
+
+#pda_p119_fld_descripcionRef{font-weight:bold;background-color:#c2c2c2}
+
+#pda_p119_rotacion_titulo{float: left; text-align: right; width: 215px; margin: 0 auto;}
+#pda_p119_refsFac_titulo{float: left; text-align: right; width: 70px; margin: 0 auto;}
+#pda_p119_refsExc_titulo{float: left; text-align: right; width: 215px; margin: 0 auto;}
+
+#pda_p119_valores_titulo{float: left; text-align: left; width: 235px; margin: 0 auto;}
+
+.rotacion-ar {
+  color: red;
+  font-weight: bold;
+}
+
+.rotacion-mr {
+  color: black;
+  background-color: yellow;
+  font-weight: bold;
+}
+
+.rotacion-br {
+  color: green;
+  font-weight: bold;
+}
+
+.fila-ref {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.col-articulo {
+  float: left;
+  width: 55%;
+  text-align: left;
+}
+
+.col-rotacion {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+.col-facing {
+  float: right;
+  width: 10%;
+  margin-right: 20px;
+  text-align: right;
+  color: red;
+  font-weight: bold;
+}
+
+/* Clearfix compatible con IE6 */
+.clearfix {
+  zoom: 1; /* IE6/7 */
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+
+
+.pda_p119_bloqueRegistro{margin-top: 3px; float: left; vertical-align: bottom; width: 98%;}

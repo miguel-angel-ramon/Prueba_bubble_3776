@@ -1,0 +1,19 @@
+{
+	"p74BotonAceptar" : "Aceptar",
+	"p74MotivoColNames" : [ 
+		" "
+	],
+	"p74BloqueoColNames" : [ 
+		" "
+	],
+	
+	"tituloVentanaPopupMotivosBloqueo" : "FECHAS DE ENTREGA BLOQUEADAS PARA LOS ENCARGOS Y MONTAJES",
+	"emptyRecords" : "No hay registros",
+	"textoMotivoBloqueo" : "Del {0} al {1}",
+	"textoBloqueoEncargoFecha" : "ENCARGO CENTRALIZADO para el {0}",
+	"textoBloqueoMontajeFechas" : "MONTAJE CENTRALIZADO del {0} al {1}",
+	"textoBloqueoPlanogramadaImplIni" : "Implantación Inicial={0}",
+	"textoBloqueoPlanogramadaImplFin" : "Implantación Final={0}",
+	"textoBloqueoEncargoCantidad" : "CANTIDAD1={0}",
+	"textoBloqueoMontajeCantidad" : "CANTIDAD{0}={1} {2}"
+}

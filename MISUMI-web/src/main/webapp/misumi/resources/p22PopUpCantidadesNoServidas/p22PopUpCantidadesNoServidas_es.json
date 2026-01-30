@@ -1,0 +1,22 @@
+{
+	"ColNames" : [ 
+		"<div class='div-correccion-th-multi'>Referencia</div>",
+		"<div class='div-correccion-th-multi'>Descripción</div>",
+		"<div class='div-correccion-th-multi'>Motivo Pedido</div>",
+		"<div class='div-correccion-th-multi'>Color</div>",
+		"<div class='div-correccion-th-multi'>Talla</div>",
+		"<div class='div-correccion-th-multi'>Modelo Proveedor</div>",
+		"Cajas<br/>No Servidas",
+		"<div class='div-correccion-th-multi'>Motivo No Servido</div>",
+		"<div class='div-correccion-th-multi'>C. corte</div>",
+		"<div class='div-correccion-th-multi'>% Inc.</div>",
+		"<div class='div-correccion-th-multi'>PER</div>",
+		"<div class='div-correccion-th-multi'>Fac.</div>",
+		"Origen Pedido"
+	],
+		
+	"GridTitle" : "Referencias / Cajas",
+	"emptyRecords" : "No hay registros",
+	"noRecordsToExport" : "No hay registros",
+	"p22BotonAceptar" : "Aceptar"	
+}

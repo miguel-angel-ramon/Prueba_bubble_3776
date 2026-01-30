@@ -1,0 +1,46 @@
+{ "page":"1",
+  "total":"2",
+  "records":"10",
+  "rows": [
+	 { "referencia" : "11155",
+	   "descripcion"    : "CJ MANZANA GOLDEN 2 CAPAS",
+	   "uc" : "12.00"
+	 },
+	 { "referencia" : "11353",
+	   "descripcion"    : "CJ MANZANA ROYAL GALA MANTO",
+	   "uc" : "6.50"
+	 },
+	 { "referencia" : "11452",
+	   "descripcion"    : "CJ MANZANA RED DELICIOUS GRANEL",
+	   "uc" : "7.00"
+	 },
+	 { "referencia" : "11155",
+	   "descripcion"    : "CJ MANZANA GOLDEN 2 CAPAS",
+	   "uc" : "7.00"
+	 },
+	 { "referencia" : "11353",
+	   "descripcion"    : "CJ MANZANA ROYAL GALA MANTO",
+	   "uc" : "4.50"
+	 },
+	 { "referencia" : "11452",
+	   "descripcion"    : "CJ MANZANA RED DELICIOUS GRANEL",
+	   "uc" : "7.00"
+	 },
+	 { "referencia" : "11155",
+	   "descripcion"    : "CJ MANZANA GOLDEN 2 CAPAS",
+	   "uc" : "12.00"
+	 },
+	 { "referencia" : "11353",
+	   "descripcion"    : "CJ MANZANA ROYAL GALA MANTO",
+	   "uc" : "6.50"
+	 },
+	 { "referencia" : "11452",
+	   "descripcion"    : "CJ MANZANA RED DELICIOUS GRANEL",
+	   "uc" : "7.00"
+	 },
+	 { "referencia" : "11353",
+	   "descripcion"    : "CJ MANZANA ROYAL GALA MANTO",
+	   "uc" : "12.00"
+	 }
+  ]
+}

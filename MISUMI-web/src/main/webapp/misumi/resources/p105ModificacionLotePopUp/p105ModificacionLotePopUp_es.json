@@ -1,0 +1,22 @@
+{
+	"comboSi" : "Si",
+	"comboNo" : "No",
+	"btnNuevo" : "Nuevo",
+	"btnModificar" : "Modificar",
+	"extensionIncorrecta" : "Extensión incorrecta de imagen",
+	
+	"rellenarCampos" : "Rellenar campos: ",
+	"codigoArticuloLote" : "Código de Artículo",
+	"descripcionArticuloLote" : "Descripción Artículo Lote",
+	"fechaInicioLote" : "Fecha Inicio",
+	"fechaFinLote" : "Fecha Fin",
+	"imagen1Lote" : "Imagen Lote",
+	"imagen2ContenidoLote" : "Imagen Contenido o Texto Contenido",
+	"flagEroskiLote" : "Flag Eroski",
+	"flagCapraboLote" : "Flag Caprabo",
+	"ordenLote" : "Orden",
+	
+	"sinModificacion" : "No hay modificaciones en el lote",
+	"fechaFinAnteriorFechaIni" : "La fecha fin no puede ser anterior a la fecha inicio",
+	"fechaIniPosteriorFechaFin" : "La fecha inicio no puede ser posterior a la fecha fin"
+}

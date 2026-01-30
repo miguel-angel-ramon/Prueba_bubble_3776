@@ -1,0 +1,9 @@
+{
+	"p36BotonAceptar" : "Aceptar",
+	"p36mensajeInforme" : "- Ya está introducida la oferta de la {0}. <span id='p36_mensajeRecordatorioPedidoAdicionalEnlace{1}' class='p36_mensajeRecordatorioPedidoAdicionalEnlace'>Pinchar aquí</span> para ir a la pantalla de consulta.",  
+    "p36tituloPopupFecha" : "<span class='p36_informesPescaTituloFecha'>({0})</span>",
+	"p36tituloPopup" : "<span class='p36_informesPescaTituloTexto'>Informe diario \"Listado apoyo pesca mostrador\"</span>",
+	"p36seleccionarHabitualNoHabitual":"Es necesario seleccionar al menos una opción de referencias a mostrar (Habituales/No habituales)",
+	"p36SeleccionarReferenciasAMostrar":"Selecciona al menos una opción de referencias a mostrar para ver los datos."
+  
+}

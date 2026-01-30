@@ -1,0 +1,49 @@
+{
+	"ColNames" : [ 
+		"<div class='div-correccion-th-multi'>Marca<span class='ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr' sort='asc'></span><span class='ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr' sort='desc'></span></div>",
+		"<div class='div-correccion-th-multi'>Referencia<span class='ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr' sort='asc'></span><span class='ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr' sort='desc'></span></div>",
+		"<div class='div-correccion-th-multi'>Descripción<span class='ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr' sort='asc'></span><span class='ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr' sort='desc'></span></div>",
+		"<div class='div-correccion-th-multi'>Stock Actual<span class='ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr' sort='asc'></span><span class='ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr' sort='desc'></span></div>",
+		"<span class='p86_gridHeaderFont'>Cantidad a</br>Devolver Centro<span class='ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr' sort='asc'></span><span class='ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr' sort='desc'></span></span>",
+		"<div class='div-correccion-th-multi'>Bulto<span class='ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr' sort='asc'></span><span class='ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr' sort='desc'></span></div>",
+		"<div class='div-correccion-th-multi'>Estado<span class='ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr' sort='asc'></span><span class='ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr' sort='desc'></span></div>" 		
+	],
+	
+		
+	"GridTitle" : "",
+	"emptyRecords" : "No hay registros.",
+	
+	"plataformaCmb" : "Plataforma",
+	"proveedorCmb" : "Proveedor",
+	"sinRecogidaCmb" : "Sin Recogida",
+	
+	"iconoGuardado" : "Guardado",
+	"iconoModificado" : "Modificado",
+	
+	"refExists" : "¡Esa referencia ya existe en el grid!",
+	"formPartOneRequired" : "¡Es necesario introducir todos los campos de la primera sección del formulario para introducir datos en el grid!",
+	"noSelectedRows" : "¡No es posible eliminar las filas porque no hay filas seleccionadas!",
+	"errorBorradoSesionGrid" : "¡Error al abrir dialogo de crear devolución!",
+	"notPosibleToReturnData" : "No ha sido posible recuperar las líneas introducidas para crear la devolución.",
+	"stockDevueltoIncorrecto" : "Error Cantidad a Devolver Centro no tiene un formato correcto.",
+	"stockDevueltoDecimalErroneo" : "números enteros y de",
+	"stockDevueltoDecimalErroneo2" : "decimales",
+	"stockDevueltoEnteroErroneo" : "El campo debe tener un máximo de ",
+	"emptyGrid":"¡Imposible eliminar porque no existen filas en el grid!",
+	"platDistinta":"¡Las plataformas de la referencia no coinciden con las referencias anteriores! ¡Introduce una referencia distinta!",
+	"errorPlat":"No se ha podido obtener la plataforma de la referencia.",
+	"noMismaSeccion":"¡La sección de la referencia no coincide con la sección de las referencias anteriores! ¡Introduce una referencia distinta!",
+	"emptyGridSave":"¡Es necesario que exista al menos una línea de devolución para guardar la devolución!",
+	"formPartOneRequiredSave":"¡Es necesario introducir todos los campos de la primera sección del formulario para guardar los datos del grid!",
+	"cantidadMaximaNoSuperable":"La cantidad introducida es mayor que la máxima permitida para esa referencia. Valor cambiado por el máximo.",
+	
+	"guardadoCorrectamente":"Devolución creada por el centro con éxito.",
+	
+	"codArticuloTitle":"Referencia",
+	"denominacionTitle":"Descripción",
+	"marcaTitle":"Marca",
+	"stockActualTitle":"Stock Actual",
+	"stockDevueltoTitle":"Cantidad a Devolver Centro",	
+	"bultoTitle":"Bulto",
+	"mensajeTitle":"Estado"
+} 

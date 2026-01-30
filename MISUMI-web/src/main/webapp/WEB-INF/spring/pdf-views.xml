@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+
+    <bean id="pdfInformePescaView" class="es.eroski.misumi.pdf.view.PdfInformePescaView">
+    	<property name="informeListadoService" ref="informeListadoService" />
+    	<property name="pdfInformePescaHeaderFooterPageEvent" ref="servicePdfInformePescaHeaderFooterPageEvent" />
+    	<property name="messageSource" ref="messageSource" />
+    </bean>
+
+    <bean id="pdfInformeDevolucionFinCampanaTodoView" class="es.eroski.misumi.pdf.view.PdfInformeDevolucionFinCampanaTodoView">
+    	<property name="devolucionService" ref="devolucionService" />
+    	<property name="pdfInformeDevolucionFinCampanaHeaderFooterPageEvent" ref="servicePdfInformeDevolucionFinCampanaHeaderFooterPageEvent" />
+    	<property name="messageSource" ref="messageSource" />
+    </bean>
+    
+    <bean id="pdfInformeDevolucionFinCampanaReferenciaView" class="es.eroski.misumi.pdf.view.PdfInformeDevolucionFinCampanaReferenciaView">
+    	<property name="devolucionService" ref="devolucionService" />
+    	<property name="pdfInformeDevolucionFinCampanaHeaderFooterPageEvent" ref="servicePdfInformeDevolucionFinCampanaHeaderFooterPageEvent" />
+    	<property name="messageSource" ref="messageSource" />
+    </bean>
+    
+    <bean id="pdfInformeDevolucionFinCampanaProveedorView" class="es.eroski.misumi.pdf.view.PdfInformeDevolucionFinCampanaProveedorView">
+    	<property name="devolucionService" ref="devolucionService" />
+    	<property name="devolucionLineaBultoCantidadService" ref="devolucionLineaBultoCantidadService" />
+    	<property name="pdfInformeDevolucionFinCampanaHeaderFooterPageEvent" ref="servicePdfInformeDevolucionFinCampanaHeaderFooterPageEvent" />
+    	<property name="messageSource" ref="messageSource" />
+    </bean>
+
+    <bean id="pdfInformeDevolucionOrdenRetiradaTodoView" class="es.eroski.misumi.pdf.view.PdfInformeDevolucionOrdenRetiradaTodoView">
+    	<property name="devolucionService" ref="devolucionService" />
+    	<property name="pdfInformeDevolucionOrdenRetiradaHeaderFooterPageEvent" ref="servicePdfInformeDevolucionOrdenRetiradaHeaderFooterPageEvent" />
+    	<property name="messageSource" ref="messageSource" />
+    </bean>
+    
+    <bean id="pdfInformeDevolucionOrdenRetiradaReferenciaView" class="es.eroski.misumi.pdf.view.PdfInformeDevolucionOrdenRetiradaReferenciaView">
+    	<property name="devolucionService" ref="devolucionService" />
+    	<property name="pdfInformeDevolucionOrdenRetiradaHeaderFooterPageEvent" ref="servicePdfInformeDevolucionOrdenRetiradaHeaderFooterPageEvent" />
+    	<property name="messageSource" ref="messageSource" />
+    </bean>
+    
+    <bean id="pdfInformeDevolucionOrdenRetiradaProveedorView" class="es.eroski.misumi.pdf.view.PdfInformeDevolucionOrdenRetiradaProveedorView">
+    	<property name="devolucionService" ref="devolucionService" />
+    	<property name="devolucionLineaBultoCantidadService" ref="devolucionLineaBultoCantidadService" />
+    	<property name="pdfInformeDevolucionOrdenRetiradaHeaderFooterPageEvent" ref="servicePdfInformeDevolucionOrdenRetiradaHeaderFooterPageEvent" />
+    	<property name="messageSource" ref="messageSource" />
+    </bean>
+    
+     <bean id="pdfInformeDevolucionCreadaCentroProveedorView" class="es.eroski.misumi.pdf.view.PdfInformeDevolucionCreadaCentroProveedorView">
+    	<property name="devolucionService" ref="devolucionService" />
+    	<property name="pdfInformeDevolucionCreadaCentroHeaderFooterPageEvent" ref="servicePdfInformeDevolucionCreadaCentroHeaderFooterPageEvent" />
+    	<property name="messageSource" ref="messageSource" />
+    </bean>
+    
+
+    <bean id="pdfInformeDevolucionOrdenRecogidaView" class="es.eroski.misumi.pdf.view.PdfInformeDevolucionOrdenRecogidaView">
+    	<property name="devolucionService" ref="devolucionService" />
+    	<property name="pdfInformeDevolucionOrdenRecogidaHeaderFooterPageEvent" ref="servicePdfInformeDevolucionOrdenRecogidaHeaderFooterPageEvent" />
+    	<property name="messageSource" ref="messageSource" />
+    </bean>
+
+    <bean id="pdfInformeDevOrdenRecogidaProveedorView" class="es.eroski.misumi.pdf.view.PdfInformeDevOrdenRecogidaProveedorView">
+    	<property name="devolucionService" ref="devolucionService" />
+    	<property name="pdfInformeDevolucionOrdenRecogidaHeaderFooterPageEvent" ref="servicePdfInformeDevolucionOrdenRecogidaHeaderFooterPageEvent" />
+    	<property name="messageSource" ref="messageSource" />
+    </bean>
+    
+    <bean id="pdfInformeEntradasDescentralizadasView" class="es.eroski.misumi.pdf.view.PdfInformeEntradasDescentralizadasView">
+    	<property name="pdfInformeEntradasDescentralizadasHeaderFooterPageEvent" ref="servicePdfEntradasDescentralizadasHeaderFooterPageEvent" />
+    	<property name="messageSource" ref="messageSource" />
+    </bean>
+
+</beans>

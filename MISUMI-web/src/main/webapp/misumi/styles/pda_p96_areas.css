@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+
+#contenidoPagina{background-color:white;position:relative;left:0px;top:54px;height:255px;width:99%;}
+#pda_p96_areas_titulo{float:left;text-align:center;margin-bottom:10px;width:98%;margin-top:35px;}
+
+#pda_p96_areas_bloque1 {width: 80px;height: 60px;background-color: #FFC6FF;float: left;position: absolute;top:95px;left: 20px;border: 1px solid #123456;}
+#pda_p96_areas_bloque2 {width: 80px;height: 60px;background-color: #FFC6FF;float: left;position: absolute;top:95px;left: 130px;border: 1px solid #123456;}
+
+.pda_p96_menuLink{position:absolute;width:100%;height:100%;top:0;left:0;text-align:center;padding-top:0px;padding-bottom:0px;vertical-align:middle;}
+.pda_p96_div_enlace{position:absolute;width:100%;height:50%;top:0;left:0;text-decoration:none;text-align:center;padding-top:22px;padding-bottom:0px;vertical-align:middle;}
+#pda_p96_lbl_titulo{font-weight: bold;font-size: 15px;}
+

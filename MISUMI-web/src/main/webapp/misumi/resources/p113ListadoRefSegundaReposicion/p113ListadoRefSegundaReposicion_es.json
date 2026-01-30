@@ -1,0 +1,40 @@
+{
+	"p113ColNames" : [ 
+		"Área",
+		"Sección",
+		"Categoría",
+		"Subcategoría",
+		"Segmento",
+		"Referencia",
+		"Denominación",
+	    "Facing",
+	    "Capacidad",
+	    "Caja expositora",
+	    "Tendencia",
+		"Venta prevista"
+	],
+	"p113GridTitle" : "Listado referencias segunda reposición",
+	"p113Categoria" : "Categoría",
+	"emptyRecords" : "No hay registros",
+	"noRecordsToExport" : "No hay registros",
+	"centerRequired" : "Es necesaria la selección del centro para la consulta",
+	"areaRequired" : "Es necesaria la selección del area para la consulta",
+	"sectionRequired" : "Es necesaria la selección de la sección para la consulta",
+	"categoryRequired" : "Es necesaria la selección de al menos una categoría para la consulta",
+	"noRecordsToExport" : "No hay registros para exportar",
+	"tableFilter":"Filtrado de columnas",
+	"areaTitle":"Área",
+	"seccionTitle":"Sección",
+	"categoriaTitle":"Categoría",
+	"subcategoriaTitle":"Subcategoría",
+	"descripcionTitle":"Segmento",
+	"codArticuloTitle":"Código de la referencia",
+	"descriptionArtTitle":"Denominación de la referencia",
+	"facingTitle":"Facing",
+	"capacidadTitle":"Capacidad",
+	"cajaExpositoraTitle":"Caja expositora",
+	"tendenciaTitle":"Tendencia",
+	"ventaPrevistaTitle":"Venta prevista"
+		
+		
+}

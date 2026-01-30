@@ -1,0 +1,66 @@
+{ "page":"1",
+  "total":"5",
+  "records":"10",
+  "rows": [
+	 { 
+	 "pedir":"N",
+	 "mapaHoy":"N",
+	 "motivoWebservice":"N",
+	  "textoMotivo":{"texto1" : "La MARCA REAPRO es igual a N", "texto2" : "PONERSE EN CONTACTO CON EL TÉCNICO DE ADECUACIÓN"}
+	 },
+	 { 
+	 "pedir":"S",
+	 "mapaHoy":"S",
+	 "motivoWebservice":"N",
+	 "textoMotivo":{"texto1" : "La referencia está EXTRAIDA de la GAMA", "texto2" : "Para INCLUIRLA ir a la Pantalla 6.5.2 de KOSMOS"}
+	 },
+	 { 
+	 "pedir":"",
+	 "mapaHoy":"",
+	 "motivoWebservice":"S",
+     "textoMotivo":{"texto1" : "La MARCA REAPRO es igual a N", "texto2" : "PONERSE EN CONTACTO CON EL TÉCNICO DE ADECUACIÓN"}
+	 },
+	 {
+	 "pedir":"",
+	 "mapaHoy":"",
+	 "motivoWebservice":"S",
+ 	 "textoMotivo":{"texto1" : "La referencia está EXTRAIDA de la GAMA", "texto2" : "Para INCLUIRLA ir a la Pantalla 6.5.2 de KOSMOS"}
+	 },
+	 {
+	 "pedir":"",
+	 "mapaHoy":"",
+	 "motivoWebservice":"S",
+	 "textoMotivo":{"texto1" : "La MARCA REAPRO es igual a N", "texto2" : "PONERSE EN CONTACTO CON EL TÉCNICO DE ADECUACIÓN"}
+	 },
+	 {
+	 "pedir":"",
+	 "mapaHoy":"",
+	 "motivoWebservice":"S",
+	 "textoMotivo":{"texto1" : "La referencia está EXTRAIDA de la GAMA", "texto2" : "Para INCLUIRLA ir a la Pantalla 6.5.2 de KOSMOS"}
+	 },
+	 { 
+	 "pedir":"",
+	 "mapaHoy":"",
+	 "motivoWebservice":"S",
+	 "textoMotivo":{"texto1" : "La MARCA REAPRO es igual a N", "texto2" : "PONERSE EN CONTACTO CON EL TÉCNICO DE ADECUACIÓN"}
+	 },
+	 {
+	 "pedir":"",
+	 "mapaHoy":"",
+	 "motivoWebservice":"S",
+	 "textoMotivo":{"texto1" : "La referencia está EXTRAIDA de la GAMA", "texto2" : "Para INCLUIRLA ir a la Pantalla 6.5.2 de KOSMOS"}
+	 },
+	 {
+	 "pedir":"",
+	 "mapaHoy":"",
+	 "motivoWebservice":"S",
+	 "textoMotivo":{"texto1" : "La MARCA REAPRO es igual a N", "texto2" : "PONERSE EN CONTACTO CON EL TÉCNICO DE ADECUACIÓN"}
+	 },
+	 {
+	 "pedir":"",
+	 "mapaHoy":"",
+	 "motivoWebservice":"S",
+	 "textoMotivo":{"texto1" : "La referencia está EXTRAIDA de la GAMA", "texto2" : "Para INCLUIRLA ir a la Pantalla 6.5.2 de KOSMOS"}
+	 }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+	"ColNames" : [ 
+		"<div class='div-correccion-th-multi'>Referencia</div>",
+		"<div class='div-correccion-th-multi'>Denominación</div>",
+		"<div class='div-correccion-th-multi'>U/C</div>",
+		"<div class='div-correccion-th-multi'>Vitrina</div>",
+		"Admite<br>Especificaciones"
+		
+	],
+		
+	"GridTitle" : "Referencias Alta Plataforma",
+	"GridTitleGenerico" : "Referencias Genéricas",
+	"emptyRecords" : "No hay registros",
+	"noRecordsToExport" : "No hay registros",
+	"encargoCliente" : "Encargo Cliente",
+	"emptyRecordSelection": "No existen datos para la búsqueda realizada.",
+	"vitrinaAlerta":"VIT",
+	"especialAlerta":"ESP"
+}

@@ -1,0 +1,47 @@
+{
+	"ColNames" : [ 
+		"Referencia",
+		"Denominación",
+		"Catálogo",
+		"U/C",
+		"Talla",
+		"Color",
+		"Modelo Proveedor",
+		"Activa"
+	],
+	
+	"ColNamesTextil" : [ 
+		"NivelLote",
+		"Referencia",
+		"Denominación",
+		"Catálogo",
+		"U/C",
+		"Talla",
+		"Color",
+		"Modelo Proveedor",
+		"Activa"
+	],
+
+	"DialogTitle" : "Seleccionar referencia",
+	"DialogTitleE" : "Seleccionar referencias ALTA CATALOGO",
+	"DialogTitleM" : "Seleccionar referencias ACTIVAS",
+	"DialogTitleSfm" :"Seleccionar referencias a modificar ",
+	"GridTitle" : "Referencias",
+	"GridTitleE" : "Referencias ALTA CATALOGO",
+	"GridTitleM" : "Referencias ACTIVAS",
+	"GridTitleSfm" : "Referencias a modificar",
+	"GridTitleGenerico" : "Referencias Genericas",
+	"emptyRecords" : "No hay registros",
+	"noRecordsToExport" : "No hay registros",
+	"emptyRecordSelection" : "No existen datos para la búsqueda realizada.",
+	"infoBasicaConsultaDatos":"Buscador",
+	"montajeAdicional":"Montajes adicionales",
+	"encargos":"Encargos",
+	"sfm":"Sfm",
+	"loteAlerta":"LOT",
+	"modeloProveedorAlerta":"M/P",
+	"p34RefActiva":"Referencia Activa.",
+	"p34AltaCatalogo":"Alta Catálogo.",
+	"p34GamaActiva":"Gama activa del centro" 
+	
+}

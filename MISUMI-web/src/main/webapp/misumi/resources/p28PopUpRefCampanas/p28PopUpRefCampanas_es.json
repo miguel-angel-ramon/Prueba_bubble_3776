@@ -1,0 +1,19 @@
+{
+	"ColNames" : [ 
+		"<div class='div-correccion-th-multi'>REFERENCIA</div>",
+		"DENOMINACIÓN",
+		"<div class='div-correccion-th-multi'>COLOR</div>",
+		"<div class='div-correccion-th-multi'>TALLA</div>",
+		"<div class='div-correccion-th-multi'>MODELO PROVEEDOR</div>",
+		"<div class='div-correccion-th-multi'>SERVIDO / CAMPAÑA</div>",
+		"Nº NO SERVIDOS<br/>/<br/>UNIDADES",
+		"VENTAS ACTUALES<br/>/<br/>PREVISIÓN TOTAL",
+		"STOCK CENTRO<br/>/<br/>STOCK DÍAS"
+	],
+		
+	"GridTitle" : "Referencias",
+	"emptyRecords" : "No hay registros",
+	"noRecordsToExport" : "No hay registros",
+	"p28BotonAceptar" : "Aceptar",
+	"p28textoColumn1" : "EMPUJE IMPL:"	
+}
