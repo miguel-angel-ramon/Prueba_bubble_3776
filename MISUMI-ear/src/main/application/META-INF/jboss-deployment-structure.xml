@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-   <jboss-deployment-structure> 
-     <sub-deployment name="MISUMI-web.war">
-       <dependencies>
-         <module name="com.oracle.ojdbc6" slot="main"/>
-       </dependencies>
-     </sub-deployment>
-   </jboss-deployment-structure>

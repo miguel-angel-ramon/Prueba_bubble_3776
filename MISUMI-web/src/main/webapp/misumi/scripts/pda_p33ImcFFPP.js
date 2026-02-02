@@ -1,1 +1,0 @@
-//Función de simulacion común

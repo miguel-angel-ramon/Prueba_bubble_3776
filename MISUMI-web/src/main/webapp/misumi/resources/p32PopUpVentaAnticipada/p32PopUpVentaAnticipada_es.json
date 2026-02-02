@@ -1,7 +1,0 @@
-{
-	"referenciaRequired" : "La referencia es obligatoria",
-	"unidadesRequired" : "Las unidades son obligatorias",
-	"unidadesRange" : "La cantidad Máxima a introducir es 99999",
-	"savedOK" : "Se ha GUARDADO la PREVISIÓN",
-	"busquedaReferenciaObligatoria" : "Es necesario realizar la búsqueda de la referencia antes de guardar las unidades."
-}

@@ -1,139 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>es.eroski</groupId>
-	<artifactId>MISUMI</artifactId>
-	<packaging>pom</packaging>
-	<version>1.0-SNAPSHOT</version>
-	<properties>
-		<project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>ISO-8859-1</project.reporting.outputEncoding>
-		<misumiVersion>local</misumiVersion>
-	</properties>
-	<name>MISUMI Maven Enterprise Application</name>
-	<modules>
-		<module>MISUMI-ear</module>
-		<module>MISUMI-web</module>
-	</modules>
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.0</version>
-				<configuration>
-					<!--  3. Specify used Java version.  -->
-					<source>1.8</source>
-					<target>1.8</target>
-					<encoding>ISO-8859-1</encoding>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-site-plugin</artifactId>
-				<version>3.1</version>
-				<configuration>
-					<!-- locales>en,es</locales -->
-					<reportPlugins>
-						<plugin>
-							<groupId>org.apache.maven.plugins</groupId>
-							<artifactId>maven-project-info-reports-plugin</artifactId>
-							<version>2.2</version>
-						</plugin>
-						<plugin>
-							<groupId>org.apache.maven.plugins</groupId>
-							<artifactId>maven-changes-plugin</artifactId>
-							<version>2.7.1</version>
-							<configuration>
-								<issueManagementSystems>
-									<issueManagementSystem>changes.xml</issueManagementSystem>
-								</issueManagementSystems>
-							</configuration>
-						</plugin>
-						<plugin>
-							<groupId>org.apache.maven.plugins</groupId>
-							<artifactId>maven-javadoc-plugin</artifactId>
-							<version>2.8.1</version>
-							<configuration>
-								<aggregate>true</aggregate>
-							</configuration>
-						</plugin>
-						<plugin>
-              				<groupId>org.codehaus.mojo</groupId>
-              				<artifactId>sonar-maven-plugin</artifactId>
-              				<version>2.0</version>
-            			</plugin>
-						<plugin>
-							<groupId>org.apache.maven.plugins</groupId>
-							<artifactId>maven-checkstyle-plugin</artifactId>
-							<version>2.9.1</version>
-							<configuration>
-								<enableRulesSummary>true</enableRulesSummary>
-								<!-- failsOnError>true</failsOnError -->
-								<linkXRef>true</linkXRef>
-								<reportSets>
-									<reportSet>
-										<reports>
-											<report>checkstyle</report>
-										</reports>
-									</reportSet>
-								</reportSets>
-								<configLocation>
-									http://slx00010260.eroski.es:8080/EROSKI_Sonar_Checkconfig.xml
-								</configLocation>
-							</configuration>
-						</plugin>
-						<plugin>
-							<groupId>org.apache.maven.plugins</groupId>
-							<artifactId>maven-pmd-plugin</artifactId>
-							<version>2.7.1</version>
-							<configuration>
-								<!-- aggregate>true</aggregate -->
-								<enableRulesSummary>true</enableRulesSummary>
-								<targetJdk>1.6</targetJdk>
-								<rulesets>
-									<ruleset>
-										http://slx00010260.eroski.es:8080/EROSKI_Sonar_PMDconfig.xml
-									</ruleset>
-								</rulesets>
-								<reportSets>
-									<reportSet>
-										<reports>
-											<report>pmd</report>
-											<report>cpd</report>
-										</reports>
-									</reportSet>
-								</reportSets>
-							</configuration>
-						</plugin>
-						<plugin>
-							<groupId>org.apache.maven.plugins</groupId>
-							<artifactId>maven-jxr-plugin</artifactId>
-							<version>2.3</version>
-						</plugin>
-					</reportPlugins>
-				</configuration>
-			</plugin>
-			
-			<plugin>
-				<groupId>org.jboss.as.plugins</groupId>
-				<artifactId>jboss-as-maven-plugin</artifactId>
-				<version>7.4.Final</version>
-				<inherited>false</inherited>
-				<configuration>
-					<hostname>${misumi_hostname}</hostname>
-					<port>${misumi_port}</port>
-					<username>${misumi_username}</username>
-					<password>${misumi_password}</password>
-					<filename>MISUMI-ear.ear</filename>
-					<domain>
-						<server-groups>
-							<server-group>${misumi_grupo}</server-group>
-						</server-groups>
-					</domain>
-					<checkPackaging>false</checkPackaging>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.example</groupId>
+  <artifactId>demo</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>demo</name>
+  <!-- FIXME change it to the project's website -->
+  <url>http://www.example.com</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+      <plugins>
+        <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
+        <plugin>
+          <artifactId>maven-clean-plugin</artifactId>
+          <version>3.1.0</version>
+        </plugin>
+        <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
+        <plugin>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>3.0.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.8.0</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>2.22.1</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>3.0.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-install-plugin</artifactId>
+          <version>2.5.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <version>2.8.2</version>
+        </plugin>
+        <!-- site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
+        <plugin>
+          <artifactId>maven-site-plugin</artifactId>
+          <version>3.7.1</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-project-info-reports-plugin</artifactId>
+          <version>3.0.0</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
 </project>

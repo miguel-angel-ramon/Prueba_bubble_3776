@@ -1,9 +1,0 @@
-{
-"tituloDarEntrada" : "DAR ENTRADA",
-"tituloEntradaConfirmada" : "ENTRADA CONFIRMADA",
-"entradaFinalizadaCorrectamenteP102" : "La entrada se ha finalizado correctamente.",
-"noHayElementosDeEntradaP102" : "La entrada se ha finalizado correctamente. No hay más entradas en este estado.",
-"notPosibleToReturnDataP102" : "No ha sido posible recuperar los datos.",
-"btnSiP102": "Si",
-"btnNoP102": "No"
-}
