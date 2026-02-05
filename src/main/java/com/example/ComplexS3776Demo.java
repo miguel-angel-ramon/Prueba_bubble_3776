@@ -160,7 +160,8 @@ public class ComplexS3776Demo {
     // ===========================================
     // ✅ ESTE es el método que debe disparar S3776
     // ===========================================
-    public void setupRules(final String) {
+    public void setupRules() {
+		String mode = "STRICT";
         // Regla 1: normalización + validación
         rules.put("normalize", (String input) -> {
             if (input == null) return "NULL";
