@@ -21,7 +21,6 @@ public class ComplexS3776Demo {
         }
 
         void put(String key, Fn value) {
-            // overwrite si existe
             for (int i = 0; i < size; i++) {
                 if (entries[i].key.equals(key)) {
                     entries[i].value = value;
@@ -65,7 +64,7 @@ public class ComplexS3776Demo {
         String userId;
         int amountCents;
         String currency;
-        String status; // NEW, PAID, CANCELED
+        String status;
 
         Order(String id, String userId, int amountCents, String currency, String status) {
             this.id = id;
@@ -97,7 +96,6 @@ public class ComplexS3776Demo {
         }
 
         Order[] findOrdersByUserId(String userId) {
-            // devuelve un array “recortado”
             Order[] tmp = new Order[oSize];
             int n = 0;
             for (int i = 0; i < oSize; i++) {
@@ -110,7 +108,7 @@ public class ComplexS3776Demo {
     }
 
     // =========================
-    // 4) “Reglas” con lambdas
+    // 4) Reglas con lambdas
     // =========================
     interface Fn {
         String apply(String input);
@@ -119,7 +117,6 @@ public class ComplexS3776Demo {
     private final InMemoryDB db = new InMemoryDB();
     private final SimpleMap rules = new SimpleMap(20);
 
-    // Mucha lógica alrededor (no es el objetivo de S3776)
     public void seedData() {
         db.addUser(new User("u1", "Miguel", 29, "ES", true));
         db.addUser(new User("u2", "Ana", 16, "ES", true));
@@ -143,7 +140,6 @@ public class ComplexS3776Demo {
     }
 
     private String[] split5(String s) {
-        // split muy básico sin imports, asume 4 separadores '|'
         String[] out = new String[5];
         int part = 0;
         int start = 0;
@@ -158,11 +154,13 @@ public class ComplexS3776Demo {
     }
 
     // ===========================================
-    // ✅ ESTE es el método que debe disparar S3776
+    //Método que dispara S3776
     // ===========================================
     public void setupRules() {
-		String mode = "STRICT";
-        // Regla 1: normalización + validación
+
+        // Configuración local (evita parámetro no usado)
+        String mode = "STRICT";
+
         rules.put("normalize", (String input) -> {
             if (input == null) return "NULL";
             String[] parts = split5(input);
@@ -176,7 +174,6 @@ public class ComplexS3776Demo {
             }
         });
 
-        // Regla 2: chequeo de edad (varios if/else)
         rules.put("ageCheck", (String input) -> {
             if (input == null) return "ERR";
             String[] parts = split5(input);
@@ -194,7 +191,6 @@ public class ComplexS3776Demo {
             return "SENIOR";
         });
 
-        // Regla 3: depende de mode con if anidados
         rules.put("modeRule", (String input) -> {
             if (input == null) return "ERR";
             String[] parts = split5(input);
@@ -205,17 +201,12 @@ public class ComplexS3776Demo {
                 if ("ES".equals(country)) return "STRICT:ES";
                 if ("US".equals(country)) return "STRICT:US";
                 return "STRICT:OTHER";
-            } else if ("RELAXED".equals(mode)) {
-                if (country == null) return "RELAXED:UNKNOWN";
-                if ("ES".equals(country)) return "RELAXED:ES";
-                return "RELAXED:OK";
             } else {
                 if (country == null) return "DEFAULT:UNKNOWN";
                 return "DEFAULT:" + country;
             }
         });
 
-        // Regla 4: usa DB (más realista) + condiciones
         rules.put("orderSummary", (String input) -> {
             if (input == null) return "ERR";
             String[] parts = split5(input);
@@ -243,13 +234,11 @@ public class ComplexS3776Demo {
             }
         });
 
-        // Regla 5: boolean + varias ramas
         rules.put("activeFlag", (String input) -> {
             if (input == null) return "ERR";
             String[] parts = split5(input);
-            String activeStr = parts[4];
+            boolean active = "true".equals(parts[4]);
 
-            boolean active = "true".equals(activeStr);
             if (active) {
                 if ("STRICT".equals(mode)) return "ACTIVE_STRICT";
                 return "ACTIVE";
@@ -266,7 +255,7 @@ public class ComplexS3776Demo {
     public static void main(String[] args) {
         ComplexS3776Demo app = new ComplexS3776Demo();
         app.seedData();
-        app.setupRules("STRICT");
+        app.setupRules();
 
         System.out.println(app.process("u1", "normalize"));
         System.out.println(app.process("u1", "ageCheck"));
@@ -275,4 +264,3 @@ public class ComplexS3776Demo {
         System.out.println(app.process("u3", "activeFlag"));
     }
 }
-
