@@ -2,7 +2,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.stream.*;
 
-public class RawTypesExample {
+public class ComplexS3776Demo  {
 
     // Raw type en atributo (tu fix actual no lo toca, pero sirve para probar límites)
     private List listaGlobal;
