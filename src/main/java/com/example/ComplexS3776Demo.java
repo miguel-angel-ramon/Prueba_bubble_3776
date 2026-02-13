@@ -268,7 +268,7 @@ public class ComplexS3776Demo {
     // 5) Demo main
     // =========================
     public static void main(String[] args) {
-        ComplexS3740Demo app = new ComplexS3740Demo();
+        ComplexS3776Demo app = new ComplexS3776Demo();
         app.seedData();
         app.setupRules();
 
