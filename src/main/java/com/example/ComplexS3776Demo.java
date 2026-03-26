@@ -23,21 +23,25 @@ public class ComplexS3776Demo {
 
     public void testAll() {
 
-        // 🔹 Caso 1: API conocida (Thread.stop)
+        // Caso 1: API conocida (Thread.stop)
         Thread t = new Thread();
         t.stop();
 
-        // 🔹 Caso 2: Deprecated con Javadoc (debería reemplazar)
+        // Caso 2: Deprecated con Javadoc (debería reemplazar)
         oldApiWithReplacement();
 
-        // 🔹 Caso 3: Deprecated sin reemplazo (debería añadir SuppressWarnings)
+        // Caso 3: Deprecated sin reemplazo (debería añadir SuppressWarnings)
         oldApiWithoutReplacement();
     }
+
     // =========================
     // 5) Demo main
     // =========================
     public static void main(String[] args) {
         ComplexS3776Demo app = new ComplexS3776Demo();
+
+        app.testAll();
+
         app.seedData();
         app.setupRules();
 
