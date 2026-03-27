@@ -1,6 +1,6 @@
 package com.example;
 
-import java.util.*;
+import java.util.function.Function;
 
 public class ComplexS3776Demo {
 
@@ -21,34 +21,45 @@ public class ComplexS3776Demo {
         System.out.println("old api without replacement");
     }
 
+    @SuppressWarnings("java:S1874")
     public void testAll() {
-
-        // Caso 1: API conocida (Thread.stop)
         Thread t = new Thread();
         t.stop();
 
-        // Caso 2: Deprecated con Javadoc (debería reemplazar)
         oldApiWithReplacement();
-
-        // Caso 3: Deprecated sin reemplazo (debería añadir SuppressWarnings)
         oldApiWithoutReplacement();
     }
 
-    // =========================
-    // 5) Demo main
-    // =========================
+    public void processLambdas() {
+        Function<String, String> f1 = s -> {
+            if (s.isEmpty()) {
+                return "EMPTY";
+            }
+            return s.toUpperCase();
+        };
+
+        Function<String, String> f2 = s -> {
+            if (s.length() > 3) {
+                return "LONG";
+            }
+            return "SHORT";
+        };
+
+        Function<String, String> f3 = s -> {
+            if (s.startsWith("A")) {
+                return "A";
+            }
+            return "OTHER";
+        };
+
+        System.out.println(f1.apply("abc"));
+        System.out.println(f2.apply("abcd"));
+        System.out.println(f3.apply("Apple"));
+    }
+
     public static void main(String[] args) {
         ComplexS3776Demo app = new ComplexS3776Demo();
-
         app.testAll();
-
-        app.seedData();
-        app.setupRules();
-
-        System.out.println(app.process("u1", "normalize"));
-        System.out.println(app.process("u1", "ageCheck"));
-        System.out.println(app.process("u1", "modeRule"));
-        System.out.println(app.process("u1", "orderSummary"));
-        System.out.println(app.process("u3", "activeFlag"));
+        app.processLambdas();
     }
 }
