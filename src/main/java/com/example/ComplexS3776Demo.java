@@ -7,7 +7,7 @@ public class ComplexS3776Demo {
     /**
      * @deprecated use newApi instead
      */
-    @Deprecated
+    @deprecated
     public void oldApiWithReplacement() {
         System.out.println("old api with replacement");
     }
@@ -16,7 +16,7 @@ public class ComplexS3776Demo {
         System.out.println("new api");
     }
 
-    @Deprecated
+    @deprecated
     public void oldApiWithoutReplacement() {
         System.out.println("old api without replacement");
     }
