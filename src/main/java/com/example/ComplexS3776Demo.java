@@ -2,18 +2,6 @@ package com.example;
 
 public class ComplexS3776Demo {
 
-    /**
-     * @deprecated use newApi instead
-     */
-    @Deprecated
-    public void oldApi() {
-        System.out.println("old api");
-    }
-
-    public void newApi() {
-        System.out.println("new api");
-    }
-
     public String getText(boolean returnNull) {
         if (returnNull) {
             return null;
@@ -21,17 +9,61 @@ public class ComplexS3776Demo {
         return "hello";
     }
 
-    public void test() {
-        // Uso de método deprecated → dispara S1874
-        oldApi();
+    public String getAlwaysNullText() {
+        return null;
+    }
 
-        // Posible NullPointerException → dispara S2259
+    public void testExpressionStmt() {
         String text = getText(true);
-        System.out.println(text.length());
+        System.out.println(text.length()); // S2259
+    }
+
+    public int testVariableDeclaration() {
+        String text = getAlwaysNullText();
+        int len = text.length(); // S2259
+        return len;
+    }
+
+    public int testReturnStmt() {
+        String text = getAlwaysNullText();
+        return text.length(); // S2259
+    }
+
+    public void testAlreadyGuarded() {
+        String text = getAlwaysNullText();
+
+        if (text != null) {
+            System.out.println(text.length()); // ya protegido, no debería tocarse
+        }
+    }
+
+    public void testChainedCall() {
+        System.out.println(getAlwaysNullText().length()); // chained, no debería tocarse
+    }
+
+    public void testUppercaseVariable() {
+        String TEXT = getAlwaysNullText();
+        System.out.println(TEXT.length()); // uppercase, tu fixer actual lo ignora
+    }
+
+    public void testMultipleStatements() {
+        String text = getAlwaysNullText();
+
+        System.out.println(text.length()); // S2259
+        System.out.println(text.length()); // S2259
     }
 
     public static void main(String[] args) {
         ComplexS3776Demo app = new ComplexS3776Demo();
-        app.test();
+
+        app.testExpressionStmt();
+
+        System.out.println(app.testVariableDeclaration());
+        System.out.println(app.testReturnStmt());
+
+        app.testAlreadyGuarded();
+        app.testChainedCall();
+        app.testUppercaseVariable();
+        app.testMultipleStatements();
     }
 }
