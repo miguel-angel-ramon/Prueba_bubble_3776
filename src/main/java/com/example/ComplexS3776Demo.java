@@ -33,23 +33,46 @@ public class ComplexS3776Demo {
         String text = getAlwaysNullText();
 
         if (text != null) {
-            System.out.println(text.length()); // ya protegido, no debería tocarse
+            System.out.println(text.length());
         }
     }
 
     public void testChainedCall() {
-        System.out.println(getAlwaysNullText().length()); // chained, no debería tocarse
+        System.out.println(getAlwaysNullText().length()); // S2259
     }
 
     public void testUppercaseVariable() {
         String TEXT = getAlwaysNullText();
-        System.out.println(TEXT.length()); // uppercase, tu fixer actual lo ignora
+        System.out.println(TEXT.length()); // S2259
     }
 
     public void testMultipleStatements() {
         String text = getAlwaysNullText();
 
         System.out.println(text.length()); // S2259
+        System.out.println(text.length()); // S2259
+    }
+
+    public void testConditionalFlow(boolean flag) {
+        String value = null;
+
+        if (flag) {
+            value = "hello";
+        }
+
+        System.out.println(value.length()); // S2259
+    }
+
+    public void testNestedBlock() {
+        String data = getAlwaysNullText();
+
+        {
+            System.out.println(data.length()); // S2259
+        }
+    }
+
+    public void testAssignmentAfterNull() {
+        String text = null;
         System.out.println(text.length()); // S2259
     }
 
@@ -65,5 +88,9 @@ public class ComplexS3776Demo {
         app.testChainedCall();
         app.testUppercaseVariable();
         app.testMultipleStatements();
+
+        app.testConditionalFlow(false);
+        app.testNestedBlock();
+        app.testAssignmentAfterNull();
     }
 }
