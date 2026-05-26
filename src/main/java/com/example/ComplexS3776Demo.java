@@ -1,6 +1,6 @@
 package com.example;
 
-public class ComplexS116Demo {
+public class ComplexS3776Demo {
 
     private String USER_NAME = "Miguel"; // S116
     private String _user_email = "miguel@email.com"; // S116
@@ -76,7 +76,7 @@ public class ComplexS116Demo {
     }
 
     public static void main(String[] args) {
-        ComplexS116Demo app = new ComplexS116Demo();
+        ComplexS3776Demo app = new ComplexS3776Demo();
 
         app.testDirectFieldAccess();
         app.testThisFieldAccess();
