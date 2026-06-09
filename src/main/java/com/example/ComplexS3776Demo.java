@@ -2,96 +2,68 @@ package com.example;
 
 public class ComplexS3776Demo {
 
-    private String USER_NAME = "Miguel"; // S116
-    private String _user_email = "miguel@email.com"; // S116
-    private int user_age = 25; // S116
-    private String UserAddress = "Sevilla"; // S116
-    private String USER_PHONE_NUMBER = "123456789"; // S116
+```
+public void testUnusedVariableInitializer() {
+    String text = null; // S1854
+    text = "Miguel";
+    System.out.println(text);
+}
 
-    public void testDirectFieldAccess() {
-        System.out.println(USER_NAME); // S116
-        System.out.println(_user_email); // S116
+public void testUnusedAssignmentExpression() {
+    String text;
+
+    text = null; // S1854
+    text = "Miguel";
+
+    System.out.println(text);
+}
+
+public void testMultipleUnusedAssignments() {
+    String name = null; // S1854
+
+    name = "Carlos";
+
+    int age = 0; // S1854
+    age = 25;
+
+    System.out.println(name);
+    System.out.println(age);
+}
+
+public void testInsideConditional() {
+    String value;
+
+    if (true) {
+        value = null; // S1854
+        value = "OK";
     }
 
-    public void testThisFieldAccess() {
-        System.out.println(this.USER_NAME); // S116
-        System.out.println(this._user_email); // S116
-    }
+    System.out.println(value);
+}
 
-    public void testReturnInvalidField() {
-        System.out.println(getUserAddress());
-    }
+public void testValidAssignmentShouldRemain() {
+    String value = "Miguel";
 
-    public String getUserAddress() {
-        return UserAddress; // S116
-    }
+    System.out.println(value);
+}
 
-    public int getUserAge() {
-        return user_age; // S116
-    }
+public void testAssignmentUsedLaterShouldRemain() {
+    String value;
 
-    public void testAssignments() {
-        USER_NAME = "Carlos"; // S116
-        _user_email = "carlos@email.com"; // S116
-        user_age = 30; // S116
-    }
+    value = "Carlos";
+    System.out.println(value);
+}
 
-    public void testMultipleUsages() {
-        System.out.println(USER_NAME); // S116
-        System.out.println(USER_NAME.toLowerCase()); // S116
-        System.out.println(USER_NAME.length()); // S116
-    }
+public static void main(String[] args) {
+    ComplexS3776Demo app = new ComplexS3776Demo();
 
-    public void testNestedBlock() {
-        {
-            System.out.println(_user_email); // S116
-        }
-    }
+    app.testUnusedVariableInitializer();
+    app.testUnusedAssignmentExpression();
+    app.testMultipleUnusedAssignments();
+    app.testInsideConditional();
+    app.testValidAssignmentShouldRemain();
+    app.testAssignmentUsedLaterShouldRemain();
+}
+```
 
-    public void testConditionalFlow(boolean flag) {
-        if (flag) {
-            USER_PHONE_NUMBER = "999999999"; // S116
-        }
-
-        System.out.println(USER_PHONE_NUMBER); // S116
-    }
-
-    public void testAlreadyValidField() {
-        String localValue = "ok";
-        System.out.println(localValue);
-    }
-
-    public void testUppercaseOnlyField() {
-        String result = USER_NAME + UserAddress; // S116
-        System.out.println(result);
-    }
-
-    public void testFieldAccessInsideMethodCall() {
-        printValue(USER_NAME); // S116
-        printValue(_user_email); // S116
-    }
-
-    public void printValue(String value) {
-        System.out.println(value);
-    }
-
-    public static void main(String[] args) {
-        ComplexS3776Demo app = new ComplexS3776Demo();
-
-        app.testDirectFieldAccess();
-        app.testThisFieldAccess();
-
-        System.out.println(app.getUserAddress());
-        System.out.println(app.getUserAge());
-
-        app.testAssignments();
-        app.testMultipleUsages();
-        app.testNestedBlock();
-
-        app.testConditionalFlow(true);
-
-        app.testAlreadyValidField();
-        app.testUppercaseOnlyField();
-        app.testFieldAccessInsideMethodCall();
-    }
 }
