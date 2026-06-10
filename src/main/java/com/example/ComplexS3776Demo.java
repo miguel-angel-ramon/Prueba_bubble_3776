@@ -2,7 +2,6 @@ package com.example;
 
 public class ComplexS3776Demo {
 
-```
 public void testUnusedVariableInitializer() {
     String text = null; // S1854
     text = "Miguel";
@@ -64,6 +63,6 @@ public static void main(String[] args) {
     app.testValidAssignmentShouldRemain();
     app.testAssignmentUsedLaterShouldRemain();
 }
-```
+
 
 }
